@@ -71,7 +71,7 @@ python render.py \
   -o examples/aws_ecr_scan_result_html.html
 ```
 
-Fully rendered output [here](https://nvtkaszpir.github.io/python-json-via-jinja2-render/).
+Fully rendered output [here](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_html.html).
 
 ## Running in container with custom templates
 
