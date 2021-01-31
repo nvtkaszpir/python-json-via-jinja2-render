@@ -1,0 +1,15 @@
+image: some/repo-image
+  tag: 6.6.6
+  sha: sha256:deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef
+
+pull:
+  docker pull some/repo-image:6.6.6
+  docker pull some/repo-image@sha256:deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef
+
+findings:
+  HIGH: 21
+  MEDIUM: 116
+  INFORMATIONAL: 254
+  LOW: 61
+  CRITICAL: 2
+  UNDEFINED: 21

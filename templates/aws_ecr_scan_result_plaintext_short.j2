@@ -1,0 +1,13 @@
+image: {{ data.repositoryName }}
+  tag: {{ data.imageId.imageTag }}
+  sha: {{ data.imageId.imageDigest }}
+
+pull:
+  docker pull {{ data.repositoryName }}:{{ data.imageId.imageTag }}
+  docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
+
+findings: 
+
+{%- for key, value in data.imageScanFindings.findingSeverityCounts.items() %}
+  {{ key }}: {{ value -}}
+{% endfor %}

@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      Scan for {{ data.repositoryName }} {{ data.imageId.imageTag }}
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- basic bootstrap css/js just to make it a bit nicer to look at -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <style>
+      /* the whole style looks dumb, but anyway... */
+      /* severities are color coded according to CVE levels */
+    .custom-critical {
+      background-color: red;
+      border: 1px solid black;
+      color: black;
+    }
+
+    .custom-high {
+      background-color: orange;
+      border: 1px solid black;
+      color: black;
+    }
+
+    .custom-medium {
+      background-color: yellow;
+      border: 1px solid black;
+      color: black;
+    }
+
+    .custom-low {
+      background-color: green;
+      border: 1px solid black;
+      color: white;
+    }
+
+    .custom-informational {
+      background-color: blue;
+      border: 1px solid black;
+      color: white;
+    }
+    .custom-undefined {
+      background-color: lightgray;
+      border: 1px solid black;
+      color: black;
+    }
+
+    .info-severities {
+      background-color: #f8f9fc;
+      color: #000;
+      padding: 1em;
+      text-transform: uppercase !important;
+    }
+
+    .info-general {
+      background-color: #f8f9fc;
+      border-left: 1em black solid;
+      border: 1px solid black;
+      color: #000;
+      margin-top: 1em;
+      padding-left: 1em;
+    }
+
+    .info-box {
+      background-color: #f8f9fc;
+      border-left: 1em black solid;
+      border: 1px solid black;
+      color: #000;
+      margin-top: 1em;
+      padding-left: 1em;
+      text-transform: uppercase !important;
+      background-color: #c3c3c3;
+    }
+
+    .item-box {
+      border-left: 0.1em black solid;
+      border: 1px solid black;
+      margin-top: 1em;
+      padding-top: 1em;
+    }
+
+    #footer {
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+    }
+    </style>
+</head>
+
+<body>
+  <!-- dummy section to redirect 'Back to top' hrefs -->
+  <div id="top">
+    <br/>
+  </div>
+
+  <!-- general info -->
+  <div class="container info-general">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-right"><b>Image scan completed at</b></div>
+        <div class="col-md-9">{{ data.imageScanFindings.imageScanCompletedAt }}</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-right"><b>Vulnerability source updated at</b></div>
+        <div class="col-md-9">{{ data.imageScanFindings.vulnerabilitySourceUpdatedAt }}</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-right"><b>Image</b></div>
+        <div class="col-md-9">{{ data.repositoryName }}</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-right"><b>Tag</b></div>
+        <div class="col-md-9">{{ data.imageId.imageTag }}</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-right"><b>SHA</b></div>
+        <div class="col-md-9">{{ data.imageId.imageDigest }}</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-11">
+          <small>
+          <textarea class="form-control" rows="3">
+docker pull {{ data.repositoryName }}:{{ data.imageId.imageTag }}
+docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
+          </textarea>
+          </small>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- severities box -->
+  <div class="container info-general info-severities">
+      <div class="row">
+      {% for severity in ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW', 'INFORMATIONAL', 'UNDEFINED'] %}
+        {%- for key, value in data.imageScanFindings.findingSeverityCounts.items() | selectattr('0', 'equalto', severity) %}
+        <div class="col-md-2 text-center">
+          <a class="btn btn-sm btn-block custom-{{ severity | lower }}" role="button" href="#severity-{{ key | lower }}">{{ key }} {{ value }}</a>
+        </div>
+        {% else %}
+        <div class="col-md-2 text-center">
+          <a class="btn btn-sm btn-block custom-{{ severity | lower }}" role="button" href="#severity-{{ severity | lower }}">{{ severity }} 0</a>
+        </div>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- loop over each severity and generate new header + entries for it -->
+{% for severity in ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW', 'INFORMATIONAL', 'UNDEFINED'] %}
+  <div id="severity-{{ severity | lower }}" class="container">
+
+      <div class="row info-box">
+        <div class="col-md-12 text-center">
+          <h2>{{ severity }}</h2>
+        </div>
+      </div>
+
+
+    {%- for item in data.imageScanFindings.findings|selectattr('severity', 'equalto', severity) %}
+
+      <div class="row item-box">
+        <div class="col-md-2 text-center">
+          <button type="button" class="btn btn-sm btn-block custom-{{ item.severity | lower }}">
+            {{ item.severity }}
+          </button>
+          <br/>
+          <a title="Go to CVE page" href="{{ item.uri }}" target="_blank">{{ item.name }}</a>
+        </div>
+        <div class="col-md-3">
+          <dl>
+          {%- for attrs in item.attributes | sort (attribute="key") %}
+            <dt>{{ attrs.key }}</dt>
+            <dd>{{ attrs.value }}</dd>
+          {% endfor %}
+          </dl>
+        </div>
+        <div class="col-md-7 text-justify">
+        {{ item.description | e }}
+        <br/>
+        <p class="text-right">
+          <a title="Back to top" href="#top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+            </svg>
+          </a>
+        </p>
+        </div>
+      </div>
+    {% else %}
+
+      <div class="row item-box">
+        <div class="col-md-12 text-center">
+          <p>
+            No entries.
+          </p>
+
+          <p class="text-right">
+            <a title="Back to top" href="#top">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+              </svg>
+            </a>
+          </p>
+
+        </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
+{% endfor %}
+
+  <!-- footer for.. nothing -->
+  <div id="footer" class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>
