@@ -73,6 +73,26 @@ python render.py \
 
 Fully rendered output [here](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_html.html).
 
+### Docker
+
+```bash
+cat examples/aws_ecr_scan_result.json \
+| docker run -v $(pwd)/templates/:/app/templates:ro -i quay.io/kaszpir/python-json-via-jinja2-render -t templates/aws_ecr_scan_result_html.j2 \
+> output.html
+```
+
+or:
+
+```bash
+docker run \
+    -v "$(pwd)/templates/:/app/templates:ro" \
+    -i quay.io/kaszpir/python-json-via-jinja2-render \
+        -t templates/aws_ecr_scan_result_html.j2 \
+        <examples/aws_ecr_scan_result.json \
+        >output.html
+```
+
+
 ## Running in container with custom templates
 
 * Create `my_template` dir with desired template
