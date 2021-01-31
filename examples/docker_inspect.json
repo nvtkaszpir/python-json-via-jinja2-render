@@ -1,0 +1,126 @@
+[
+    {
+        "Id": "sha256:f4dbf34b62a8fa7c8dcdfa430c3b0906bc1e904dad0059ffe172c4f3d396180d",
+        "RepoTags": [
+            "quay.io/kaszpir/python-json-via-jinja2-render:first-try",
+            "quay.io/kaszpir/python-json-via-jinja2-render:latest"
+        ],
+        "RepoDigests": [
+            "quay.io/kaszpir/python-json-via-jinja2-render@sha256:cfa875aa4d2e9c788576532f579619c17670f798223f09abd9b7363cb847b85d"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2021-01-31T00:26:26.736821203Z",
+        "Container": "782e156d3bef9bff5a9c62a918b1eeec5f9363feb985469123c52d3d9de8f2e4",
+        "ContainerConfig": {
+            "Hostname": "782e156d3bef",
+            "Domainname": "",
+            "User": "nobody",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568",
+                "PYTHON_VERSION=3.9.1",
+                "PYTHON_PIP_VERSION=21.0",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/8cc88aca7d9775fce279e8b84ef163cf1d3e8a2e/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=ffb67da2e976f48dd29714fc64812d1ac419eb7d48079737166dd95640d1debd"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"--help\"]"
+            ],
+            "Image": "sha256:c79f962b0768f58101c79d754ce399dd695dd6e1edcadcdfc358ca543d5fccf2",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "python",
+                "./render.py"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.authors": "Michał Sochoń <kaszpir@gmail.com>",
+                "org.opencontainers.image.url": "https://github.com/nvtkaszpir/python-json-via-jinja2-render"
+            }
+        },
+        "DockerVersion": "19.03.11",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "nobody",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568",
+                "PYTHON_VERSION=3.9.1",
+                "PYTHON_PIP_VERSION=21.0",
+                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/8cc88aca7d9775fce279e8b84ef163cf1d3e8a2e/get-pip.py",
+                "PYTHON_GET_PIP_SHA256=ffb67da2e976f48dd29714fc64812d1ac419eb7d48079737166dd95640d1debd"
+            ],
+            "Cmd": [
+                "--help"
+            ],
+            "Image": "sha256:c79f962b0768f58101c79d754ce399dd695dd6e1edcadcdfc358ca543d5fccf2",
+            "Volumes": null,
+            "WorkingDir": "/app/",
+            "Entrypoint": [
+                "python",
+                "./render.py"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.authors": "Michał Sochoń <kaszpir@gmail.com>",
+                "org.opencontainers.image.url": "https://github.com/nvtkaszpir/python-json-via-jinja2-render"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 897978622,
+        "VirtualSize": 897978622,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/760855b6c2afe7ded217de45588bdb94d2dc224c63aebd5dee39b6f16df0e839/diff:/var/lib/docker/overlay2/7ae8b7f83f54c0fc61c66f5d5c08d87232ac4ad7462a912aa656bc0bbdcc4550/diff:/var/lib/docker/overlay2/89749621341f3b3681a69a13d7610a385ac84876f1fbfb340e35d2721b3c612e/diff:/var/lib/docker/overlay2/8d9b1962dfea0d87bce0f5f4d0a3b33cb7a33e864062904dc1ce80eeed11bd77/diff:/var/lib/docker/overlay2/1934cee1a3acd5adcac7b1ee508fc06e4b83816f746cb4bfbfd8f19c1b899681/diff:/var/lib/docker/overlay2/df6de67ee0239652137be704ef3839c7fee1340fe5ab6a5d71ca536bbea240f4/diff:/var/lib/docker/overlay2/d5f0e7c5e0d064bc2342f0008713a6917c5c19cd39942a39007f7fa2d009dbde/diff:/var/lib/docker/overlay2/415d33591eed83f632ca750d0055ebec5216914e34e609f7a1a2eb3fc3101f1f/diff:/var/lib/docker/overlay2/a4195c70e3a9dfe5621c5c4f135b91e90380c2e02fbd06cb8219acf1a71283c1/diff:/var/lib/docker/overlay2/f26fa3d171260feb88b7c9070aa8a397dfa366e487e7d71dae5bb5460ca89aab/diff:/var/lib/docker/overlay2/16321587e875be7b33b8f76457c64bf881ab0d601031ded829fcdb9692ba638e/diff:/var/lib/docker/overlay2/e586935fa97e7adfa8919a2c7eb44f24c470176cd6de68aa9fb4a5d6710cf1f5/diff:/var/lib/docker/overlay2/189f7ce26cdefe240ce591d2294940587623d7dd4e9c2329df025562227f17c8/diff",
+                "MergedDir": "/var/lib/docker/overlay2/6ebab0ffe52ec41314de46c381307f8a20d8b4946f451ad3ba4105d9dd01acdf/merged",
+                "UpperDir": "/var/lib/docker/overlay2/6ebab0ffe52ec41314de46c381307f8a20d8b4946f451ad3ba4105d9dd01acdf/diff",
+                "WorkDir": "/var/lib/docker/overlay2/6ebab0ffe52ec41314de46c381307f8a20d8b4946f451ad3ba4105d9dd01acdf/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:4762552ad7d851a9901571428078281985074e5ddb806979dd7ad24748db4ca0",
+                "sha256:a1f2f42922b1d3aa948f2569adebb37129941e889f13b96823a5e2aa8ecc1a8f",
+                "sha256:ef9a7b8862f4797ec08f3733ab9fc2a08c51f44e5561b087eb10a6e442599760",
+                "sha256:aa7af8a465c6b600b7151db82799f757d0029c7fb9f170faaffdc40080c525c5",
+                "sha256:cd702377e4e5616034439b1d1c686b75f492df3fd59f54d9dd671bd1c7d84335",
+                "sha256:9f5b4cdea5322f4aadfaddd6a2cb9cebb4b783e2bbad77451bf431a54fb816d7",
+                "sha256:b3f4557ae183c61057d76065ff403066066b156a3bf65d5375e6e4a21e61d3ff",
+                "sha256:c5e393b8a19aa564a481904b23d1b4de5d725099003822b643adc9f9262ffbfe",
+                "sha256:bdc202df903f1b50f5d748a03fb8e9d3a51ee250b08068b02ebf95466e124604",
+                "sha256:45692e0c39446a369bfd08d67a942a355156364e23d67dc9a63b7b6a332f29ef",
+                "sha256:5d3df63f35f6291dc398c0f774cc069c950ec26389d6bbdb3114906876bf94f1",
+                "sha256:894a70fb4ffee00b428851c76760c9adf7eb174f1261efd36f6adbf1efe622a4",
+                "sha256:669f8f5e60fa09f3088f4e2c884f21f9334cd20b0f523d9766b202681ece1112",
+                "sha256:9a310543b7bd02b06fd2df91b0365353517805f02d633ab7662c946ed0ed11c3"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]

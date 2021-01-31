@@ -105,3 +105,7 @@ cat examples/aws_ecr_scan_result.json \
 > output.html
 
 ```
+
+## Other
+
+Just see `test.sh` for more.

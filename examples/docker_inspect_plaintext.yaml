@@ -1,0 +1,19 @@
+---
+# yeah this way we can generate dumb yaml
+# which may not be the best way to conver json to yaml anyway...
+tags:
+- quay.io/kaszpir/python-json-via-jinja2-render:first-try
+- quay.io/kaszpir/python-json-via-jinja2-render:latest
+digests:
+- quay.io/kaszpir/python-json-via-jinja2-render@sha256:cfa875aa4d2e9c788576532f579619c17670f798223f09abd9b7363cb847b85d
+workdir: /app/
+entrypoint: ['python', './render.py']
+cmd: ['--help']
+volumes: 
+arch: amd64
+os: linux
+labels:
+- org.opencontainers.image.authors = Michał Sochoń <kaszpir@gmail.com>
+- org.opencontainers.image.url = https://github.com/nvtkaszpir/python-json-via-jinja2-render
+
+...

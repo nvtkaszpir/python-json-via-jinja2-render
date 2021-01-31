@@ -1,0 +1,24 @@
+{%- for img in data -%}
+---
+# yeah this way we can generate dumb yaml
+# which may not be the best way to conver json to yaml anyway...
+tags:
+{%- for tag in img.RepoTags %}
+- {{ tag }}
+{%- endfor %}
+digests:
+{%- for digest in img.RepoDigests %}
+- {{ digest }}
+{%- endfor %}
+workdir: {{ img.Config.WorkingDir }}
+entrypoint: {{ img.Config.Entrypoint }}
+cmd: {{ img.Config.Cmd }}
+volumes: {{ img.Config.Volumes if img.Config.Volumes is not none }}
+arch: {{ img.Architecture }}
+os: {{ img.Os }}
+labels:
+{%- for k,v in img.Config.Labels.items() %}
+- {{ k }} = {{ v }}
+{%- endfor %}
+{% endfor %}
+...
