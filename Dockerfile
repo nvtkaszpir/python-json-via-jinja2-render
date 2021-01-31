@@ -1,5 +1,8 @@
 FROM python:3.9.1-buster
 
+LABEL "org.opencontainers.image.url"="https://github.com/nvtkaszpir/python-json-via-jinja2-render"
+LABEL "org.opencontainers.image.authors"="Michał Sochoń <kaszpir@gmail.com>"
+
 COPY requirements.txt /tmp/
 USER 0
 RUN python -m pip install --no-cache-dir --upgrade pip==21.0.1 \
