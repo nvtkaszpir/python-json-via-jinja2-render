@@ -27,6 +27,10 @@ render.py --help
 
 # Examples
 
+Just see `test.sh` for more for more real-life examples.
+Also see `examples/` directory for input/output files.
+
+
 ## AWS ECR security scan output
 
 ### Plain text short
@@ -92,7 +96,6 @@ docker run \
         >output.html
 ```
 
-
 ## Running in container with custom templates
 
 * Create `my_template` dir with desired template
@@ -105,7 +108,3 @@ cat examples/aws_ecr_scan_result.json \
 > output.html
 
 ```
-
-## Other
-
-Just see `test.sh` for more.

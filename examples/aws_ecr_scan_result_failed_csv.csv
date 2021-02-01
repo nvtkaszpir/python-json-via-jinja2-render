@@ -1,0 +1,2 @@
+scan_date;source_date;repo;tag;sha;severity;cve_name;cve_uri
+;;psql-client;12.4.0;sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;FAILED;UnsupportedImageError: The operating system 'alpine' version 'v3.13' is not supported.

@@ -7,16 +7,16 @@ pull:
   docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
 
 findings: 
-
+{%- if data.imageScanStatus.status == 'COMPLETE' %}
 {%- for key, value in data.imageScanFindings.findingSeverityCounts.items() %}
   {{ key }}: {{ value -}}
 {% endfor %}
-
 --------------------------------
 {%- for item in data.imageScanFindings.findings %}
     name: {{ item.name }}
      uri: {{ item.uri }}
 severity: {{ item.severity }}
-
 {% endfor %}
---------------------------------
+{%- else %}
+  Image scan {{ data.imageScanStatus.status }}: {{ data.imageScanStatus.description }}
+{% endif %}

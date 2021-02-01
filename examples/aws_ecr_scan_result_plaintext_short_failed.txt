@@ -1,0 +1,10 @@
+image: psql-client
+  tag: 12.4.0
+  sha: sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+pull:
+  docker pull psql-client:12.4.0
+  docker pull psql-client@sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+findings:
+  Image scan FAILED: UnsupportedImageError: The operating system 'alpine' version 'v3.13' is not supported.

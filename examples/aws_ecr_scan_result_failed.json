@@ -1,0 +1,13 @@
+{
+    "registryId": "111111111111",
+    "repositoryName": "psql-client",
+    "imageId": {
+        "imageDigest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "imageTag": "12.4.0"
+    },
+    "imageScanStatus": {
+        "status": "FAILED",
+        "description": "UnsupportedImageError: The operating system 'alpine' version 'v3.13' is not supported."
+    },
+    "imageScanFindings": null
+}

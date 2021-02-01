@@ -139,6 +139,8 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
       </div>
     </div>
   </div>
+
+{% if data.imageScanStatus.status == 'COMPLETE' %}
   <!-- severities box -->
   <div class="container info-general info-severities">
       <div class="row">
@@ -220,6 +222,26 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
 
   </div>
 {% endfor %}
+{% else %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center info-general info-severities">
+      Image scan {{ data.imageScanStatus.status }}
+      </div>
+    </div>
+
+    <div class="row item-box">
+      <div class="col-md-12 text-center">
+        {{ data.imageScanStatus.description }}
+        <br/>
+        <br/>
+      </div>
+    </div>
+
+
+  </div>
+{% endif %}
 
   <!-- footer for.. nothing -->
   <div id="footer" class="container">
