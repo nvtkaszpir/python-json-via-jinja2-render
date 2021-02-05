@@ -33,13 +33,9 @@ render.py --help
 
 | Name | Input | Template | Output |
 | ---- | ----- | -------- | ------ |
-| [wagoodman/dive](https://github.com/wagoodman/dive) HTML | [input](examples/dive.json) | [template](templates/dive_html.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/dive_html.html) |
-| [wagoodman/dive](https://github.com/wagoodman/dive) plain text | [input](examples/dive.json) | [template](templates/dive_plaintext.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/dive_plaintext.txt) |
-| AWS ECR security scan CSV | [input](examples/aws_ecr_scan_result.json) | [template](templates/aws_ecr_scan_result_csv.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_csv.csv) |
-| AWS ECR security scan HTML | [input](examples/aws_ecr_scan_result.json) | [template](templates/aws_ecr_scan_result_html.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_html.html) |
-| AWS ECR security scan plaintext long | [input](examples/aws_ecr_scan_result.json) | [template](templates/aws_ecr_scan_result_plaintext_long.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_plaintext_long.txt) |
-| AWS ECR security scan plaintext short | [input](examples/aws_ecr_scan_result.json) | [template](templates/aws_ecr_scan_result_plaintext_short.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_plaintext_short.txt) |
-| docker inspect plain text to simulate YAML cause we can! | [input](examples/docker_inspect.json) | [template](templates/docker_inspect_plaintext.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/docker_inspect_plaintext.yaml) |
+{%- for item in data | sort(attribute="name") %}
+| {{ item.name|e }} | [input]({{ item.input }}) | [template]({{ item.template }}) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/{{ item.output }}) |
+{%- endfor %}
 
 ### Docker
 
@@ -74,3 +70,11 @@ cat examples/aws_ecr_scan_result.json \
 >output.html
 
 ```
+
+# Testing
+
+* Run under linux
+* install [yq](https://github.com/mikefarah/yq)
+* install docker
+* run `./test.sh`
+* see generated files, commit and make PR

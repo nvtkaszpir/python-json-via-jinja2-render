@@ -1,0 +1,45 @@
+# this file is in fact an input to generate README.md table
+# ensure to provide full paths to files
+---
+- name: AWS ECR security scan plaintext short
+  input: examples/aws_ecr_scan_result.json
+  template: templates/aws_ecr_scan_result_plaintext_short.j2
+  output: examples/aws_ecr_scan_result_plaintext_short.txt
+  type: shell
+
+- name: AWS ECR security scan plaintext long
+  input: examples/aws_ecr_scan_result.json
+  template: templates/aws_ecr_scan_result_plaintext_long.j2
+  output: examples/aws_ecr_scan_result_plaintext_long.txt
+  type: shell
+
+- name: AWS ECR security scan HTML
+  input: examples/aws_ecr_scan_result.json
+  template: templates/aws_ecr_scan_result_html.j2
+  output: examples/aws_ecr_scan_result_html.html
+  type: shell
+
+- name: AWS ECR security scan CSV
+  input: examples/aws_ecr_scan_result.json
+  template: templates/aws_ecr_scan_result_csv.j2
+  output: examples/aws_ecr_scan_result_csv.csv
+  type: shell
+
+- name: "[wagoodman/dive](https://github.com/wagoodman/dive) plain text"
+  input: examples/dive.json
+  template: templates/dive_plaintext.j2
+  output: examples/dive_plaintext.txt
+  type: shell
+
+- name: "[wagoodman/dive](https://github.com/wagoodman/dive) HTML"
+  input: examples/dive.json
+  template: templates/dive_html.j2
+  output: examples/dive_html.html
+  type: shell
+
+- name: docker inspect plain text to simulate YAML cause we can!
+  input: examples/docker_inspect.json
+  template: templates/docker_inspect_plaintext.j2
+  output: examples/docker_inspect_plaintext.yaml
+  type: docker
+  comment: This one is rendered totally within docker container

@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -x
+set -e
+# auto-generated file to run rendering of the files
+# this file looks like a real nightmare under shellcheck :D
+# don't even try to run shfmt on jinja2 template.
+{%- for item in data | sort(attribute="name") %}
+
+# {{ item.name|e }}
+# {{ item.comment }}
+{% if item.type == 'docker' %}
+docker run \
+    -v "$(pwd)/templates/:/app/templates:ro" \
+    -i quay.io/kaszpir/python-json-via-jinja2-render \
+        -t {{ item.template }} \
+        <{{ item.input }} \
+        >{{ item.output }}
+{% else %}
+python render.py \
+  --input    {{ item.input }} \
+  --template {{ item.template }} \
+  --output   {{ item.output }}
+{% endif %}
+{%- endfor %}
