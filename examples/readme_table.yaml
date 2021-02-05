@@ -43,7 +43,7 @@
   output: examples/aws_ecr_scan_result_html_failed.html
   type: shell
 
-- name: AWS ECR security scan CSV
+- name: AWS ECR security scan CSV for failed scan
   input: examples/aws_ecr_scan_result_failed.json
   template: templates/aws_ecr_scan_result_csv.j2
   output: examples/aws_ecr_scan_result_csv_failed.csv

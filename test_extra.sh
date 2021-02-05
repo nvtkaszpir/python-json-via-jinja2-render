@@ -32,7 +32,7 @@ python render.py \
   --output   examples/aws_ecr_scan_result_csv.csv
 
 
-# AWS ECR security scan CSV
+# AWS ECR security scan CSV for failed scan
 # 
 
 python render.py \
