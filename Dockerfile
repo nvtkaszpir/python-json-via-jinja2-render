@@ -1,4 +1,4 @@
-FROM python:3.9.1-buster
+FROM python:3.9.1-slim-buster
 
 LABEL "org.opencontainers.image.url"="https://github.com/nvtkaszpir/python-json-via-jinja2-render"
 LABEL "org.opencontainers.image.authors"="Michał Sochoń <kaszpir@gmail.com>"

@@ -3,7 +3,7 @@
 .gitignore
 Dockerfile
 examples/
-output.html
+output*.html
 README.html
 README.md
 test.sh
