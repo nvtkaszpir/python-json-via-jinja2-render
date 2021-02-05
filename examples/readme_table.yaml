@@ -25,6 +25,30 @@
   output: examples/aws_ecr_scan_result_csv.csv
   type: shell
 
+- name: AWS ECR security scan plaintext short for failed scan
+  input: examples/aws_ecr_scan_result_failed.json
+  template: templates/aws_ecr_scan_result_plaintext_short.j2
+  output: examples/aws_ecr_scan_result_plaintext_short_failed.txt
+  type: shell
+
+- name: AWS ECR security scan plaintext long for failed scan
+  input: examples/aws_ecr_scan_result_failed.json
+  template: templates/aws_ecr_scan_result_plaintext_long.j2
+  output: examples/aws_ecr_scan_result_plaintext_long_failed.txt
+  type: shell
+
+- name: AWS ECR security scan HTML for failed scan
+  input: examples/aws_ecr_scan_result_failed.json
+  template: templates/aws_ecr_scan_result_html.j2
+  output: examples/aws_ecr_scan_result_html_failed.html
+  type: shell
+
+- name: AWS ECR security scan CSV
+  input: examples/aws_ecr_scan_result_failed.json
+  template: templates/aws_ecr_scan_result_csv.j2
+  output: examples/aws_ecr_scan_result_csv_failed.csv
+  type: shell
+
 - name: "[wagoodman/dive](https://github.com/wagoodman/dive) plain text"
   input: examples/dive.json
   template: templates/dive_plaintext.j2
@@ -43,3 +67,9 @@
   output: examples/docker_inspect_plaintext.yaml
   type: docker
   comment: This one is rendered totally within docker container
+
+- name: skopeo stdout plaintext as MarkDown
+  input: examples/skopeo_stdout.json
+  template: templates/skopeo_markdown.j2
+  output: examples/skopeo_markdown.md
+  type: shell

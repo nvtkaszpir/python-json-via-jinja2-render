@@ -36,10 +36,15 @@ render.py --help
 | [wagoodman/dive](https://github.com/wagoodman/dive) HTML | [input](examples/dive.json) | [template](templates/dive_html.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/dive_html.html) |
 | [wagoodman/dive](https://github.com/wagoodman/dive) plain text | [input](examples/dive.json) | [template](templates/dive_plaintext.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/dive_plaintext.txt) |
 | AWS ECR security scan CSV | [input](examples/aws_ecr_scan_result.json) | [template](templates/aws_ecr_scan_result_csv.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_csv.csv) |
+| AWS ECR security scan CSV | [input](examples/aws_ecr_scan_result_failed.json) | [template](templates/aws_ecr_scan_result_csv.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_csv_failed.csv) |
 | AWS ECR security scan HTML | [input](examples/aws_ecr_scan_result.json) | [template](templates/aws_ecr_scan_result_html.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_html.html) |
+| AWS ECR security scan HTML for failed scan | [input](examples/aws_ecr_scan_result_failed.json) | [template](templates/aws_ecr_scan_result_html.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_html_failed.html) |
 | AWS ECR security scan plaintext long | [input](examples/aws_ecr_scan_result.json) | [template](templates/aws_ecr_scan_result_plaintext_long.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_plaintext_long.txt) |
+| AWS ECR security scan plaintext long for failed scan | [input](examples/aws_ecr_scan_result_failed.json) | [template](templates/aws_ecr_scan_result_plaintext_long.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_plaintext_long_failed.txt) |
 | AWS ECR security scan plaintext short | [input](examples/aws_ecr_scan_result.json) | [template](templates/aws_ecr_scan_result_plaintext_short.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_plaintext_short.txt) |
+| AWS ECR security scan plaintext short for failed scan | [input](examples/aws_ecr_scan_result_failed.json) | [template](templates/aws_ecr_scan_result_plaintext_short.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/aws_ecr_scan_result_plaintext_short_failed.txt) |
 | docker inspect plain text to simulate YAML cause we can! | [input](examples/docker_inspect.json) | [template](templates/docker_inspect_plaintext.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/docker_inspect_plaintext.yaml) |
+| skopeo stdout plaintext as MarkDown | [input](examples/skopeo_stdout.json) | [template](templates/skopeo_markdown.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/skopeo_markdown.md) |
 
 ### Docker
 

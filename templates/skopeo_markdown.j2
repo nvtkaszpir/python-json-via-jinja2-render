@@ -1,0 +1,43 @@
+# Skopeo inspect
+
+Name: {{ data.Name }}
+
+Digest: `{{ data.Digest }}`
+
+Created: {{ data.Created }}
+
+
+# Tags
+{% for tag in data.RepoTags %}
+* {{ tag }}
+{%- endfor %}
+
+{% set pull_tag = data.RepoTags | first %}
+Docker pull: 
+
+```shell
+docker pull {{ data.Name }}:{{ pull_tag }}
+docker pull {{ data.Name }}@{{ data.Digest }}
+```
+
+# Labels
+{% for k,v in data.Labels.items() %}
+* `{{ k|e }}`=`{{ v|e }}`
+{%- endfor %}
+
+Arch: {{ data.Architecture }}
+Os: {{ data.Os }}
+
+# Layers
+{% for layer in data.Layers %}
+* `{{ layer }}`
+{%- endfor %}
+
+# Env
+
+```shell
+{%- for envvar in data.Env %}
+{{ envvar }}
+{%- endfor %}
+```
+

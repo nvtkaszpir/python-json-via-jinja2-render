@@ -1,0 +1,31 @@
+name: quay.io/kaszpir/python-json-via-jinja2-render
+digest: sha256:845802626dc44a4521bb57453f53bd4ca2ea94928c8c7880bfc94546079dd40f
+tags:
+  main
+  latest
+created: 2021-02-05T22:48:19.791587119Z
+docker: 19.03.11
+labels:
+  org.opencontainers.image.authors=Michał Sochoń &lt;kaszpir@gmail.com&gt;
+  org.opencontainers.image.url=https://github.com/nvtkaszpir/python-json-via-jinja2-render
+arch: amd64
+os: linux
+layers:
+  sha256:a076a628af6f7dcabc536bee373c0d9b48d9f0516788e64080c4e841746e6ce6
+  sha256:de8081929fad39cfd342cf72cb9b1c4a072250ebd2f7b2eafde16e0c54aed607
+  sha256:181a96cb0617105c41bed5028f29605da9d2770762dadea6be79051ac1c3faff
+  sha256:c91fe2011cc2116aea7aab04513720f45fa7c916fa89276236f03cdbebdc9d5b
+  sha256:16e23e4a2e6e5b2c186d0517aa411948e78abb6c8a3aebae3dd2ff5fa082d9bc
+  sha256:fdaabd038d018a1def66ecd5b11693fd5aaaaabf2f34ef86feb25a5ff9244868
+  sha256:b3db5b66425a4e58ea4c40e4010f1c0b8cc4334545d6550c4e7d03a88e90ac30
+  sha256:ad4db8e9cb999264b92cfc7401726a84a78871bc9327d4569faa4729b8f6cbb7
+  sha256:3a006b3157111f97a7288db5eb0208c1b7675cfb6243263aba4f26c73a6ef797
+  sha256:c732ce49d63ce4a2d5b4395617b67ff4b8c94b507b410edd2449861e8811d5e3
+env:
+  PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  LANG=C.UTF-8
+  GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568
+  PYTHON_VERSION=3.9.1
+  PYTHON_PIP_VERSION=21.0.1
+  PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/4be3fe44ad9dedc028629ed1497052d65d281b8e/get-pip.py
+  PYTHON_GET_PIP_SHA256=8006625804f55e1bd99ad4214fd07082fee27a1c35945648a58f9087a714e9d4
