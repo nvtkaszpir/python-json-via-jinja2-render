@@ -74,3 +74,11 @@ cat examples/aws_ecr_scan_result.json \
 >output.html
 
 ```
+
+# Testing
+
+* Run under linux
+* install [yq](https://github.com/mikefarah/yq)
+* install docker
+* run `./test.sh`
+* see generated files, commit and make PR
