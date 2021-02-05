@@ -49,6 +49,16 @@ python render.py \
   -i examples/docker_inspect.json \
   -t templates/docker_inspect_plaintext.j2 >examples/docker_inspect_plaintext.yaml
 
+# dive docker://quay.io/kaszpir/python-json-via-jinja2-render:latest --json /dev/stdout > examples/dive.json
+# redirect to stdout cause dive likes to append to existing file
+python render.py \
+  -i examples/dive.json \
+  -t templates/dive_plaintext.j2 >examples/dive_plaintext.txt
+
+python render.py \
+  -i examples/dive.json \
+  -t templates/dive_html.j2 >examples/dive_html.htnl
+
 # docker based runs
 
 docker run -v "$(pwd)/templates/:/app/templates:ro" -i quay.io/kaszpir/python-json-via-jinja2-render -t templates/aws_ecr_scan_result_html.j2 \

@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- basic bootstrap css/js just to make it a bit nicer to look at -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+{% set dockerfile_ref = ['ADD', 'ARG', 'CMD', 'COPY', 'ENTRYPOINT', 'ENV', 'EXPOSE', 'FROM', 'HEALTHCHECK', 'LABEL', 'MAINTAINER', 'ONBUILD', 'RUN', 'SHELL', 'STOPSIGNAL', 'USER', 'VOLUME', 'WORKDIR'] %}
+    <style>
+      /* the whole style looks dumb, but anyway... */
+      /* severities are color coded according to CVE levels */
+    .digest {
+      color: lightgray;
+    }
+    .cmd-ADD {
+      border-left: 1em solid green;
+    }
+    .cmd-ARG {
+      border-left: 1em solid orange;
+    }
+    .cmd-CMD {
+      border-left: 1em solid blue;
+    }
+    .cmd-COPY {
+      border-left: 1em solid green;
+    }
+    .cmd-ENTRYPOINT {
+      border-left: 1em solid blue;
+    }
+    .cmd-ENV {
+      border-left: 1em solid orange;
+    }
+    .cmd-EXPOSE {
+      border-left: 1em solid violet;
+    }
+    .cmd-FROM {
+      border-left: 1em solid pink;
+    }
+    .cmd-HEALTHCHECK {
+      border-left: 1em solid violet;
+    }
+    .cmd-LABEL {
+      border-left: 1em solid gray;
+    }
+    .cmd-MAINTAINER {
+      border-left: 1em solid gray;
+    }
+    .cmd-ONBUILD {
+      border-left: 1em solid violet;
+    }
+    .cmd-RUN {
+      border-left: 1em solid red;
+    }
+    .cmd-SHELL {
+      border-left: 1em solid orange;
+    }
+    .cmd-STOPSIGNAL {
+      border-left: 1em solid violet;
+    }
+    .cmd-USER {
+      border-left: 1em solid orange;
+    }
+    .cmd-VOLUME {
+      border-left: 1em solid violet;
+    }
+    .cmd-WORKDIR {
+      border-left: 1em solid orange;
+    }
+    .cmd-UNKNOWN {
+      border-left: 1em solid black;
+    }
+
+    #footer {
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+    }
+    </style>
+</head>
+<body>
+  <!-- dummy section to redirect 'Back to top' hrefs -->
+  <div id="top">
+    <br/>
+  </div>
+
+  <!-- general info -->
+  <div class="container info-general">
+    <div class="row">
+      <div class="col-md-12 text-center"><b>General info</b></div>
+    </div>
+  </div>
+  <div class="container info-general">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-right"><b>image</b></div>
+        <div class="col-md-9">{{ data.image.sizeBytes | filesizeformat }}</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 text-right"><b>inefficient</b></div>
+        <div class="col-md-9">{{ data.image.inefficientBytes | filesizeformat }}</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 text-right"><b>efficiency score</b></div>
+        <div class="col-md-9">{{ "%3.0f" | format(data.image.efficiencyScore*100) }}%</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- most big files in image -->
+  <div id="files" class="container info-general">
+    <div class="row">
+      <div class="col-md-12 text-center"><b>Files refs</b></div>
+    </div>
+  </div>
+  <div class="container">
+{%- for ref in data.image.fileReference %}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1"><b>count</b> {{ ref.count }}</div>
+        <div class="col-md-1">{{ ref.sizeBytes | filesizeformat }}</div>
+        <div class="col-md-10">{{ ref.file | e }}</div>
+      </div>
+    </div>
+{% endfor %}
+  </div>
+
+  <!-- layers -->
+  <div id="layers" class="container info-general">
+    <div class="row">
+      <div class="col-md-12 text-center"><b>Image Build</b></div>
+    </div>
+  </div>
+  <div class="container">
+{% for layer in data.layer %}
+{% set cmd_list = layer.command.split(' ', 1) %}
+{% set css_class = 'UNKNOWN' %}
+{% if cmd_list[0] == '#(nop)' %}
+  {% set css_class = layer.command.split(' ')[1] %}
+{% else %}
+  {% if cmd_list in dockerfile_ref %}
+  {% set css_class = layer.command.split(' ')[0] %}
+  {% endif %}
+{% endif %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <b>index</b>: {{ layer.index }}
+        </div>
+        <div class="col-md-1" text-right>{{ layer.sizeBytes | filesizeformat }}</div>
+        <div class="col-md-10 cmd-{{ css_class }}">
+          {{ layer.command | e }}
+          <br/>
+          <p class="digest"><b>digestId</b>: {{ layer.digestId }}</p>
+        </div>
+      </div>
+    </div>
+{%- endfor %}
+  </div>
+
+  <!-- footer for.. nothing -->
+  <div id="footer" class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>

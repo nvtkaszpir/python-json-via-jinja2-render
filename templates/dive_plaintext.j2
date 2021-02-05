@@ -1,0 +1,19 @@
+           image: {{ data.image.sizeBytes | filesizeformat }}
+     inefficient: {{ data.image.inefficientBytes | filesizeformat }}
+efficiency score: {{ "%3.0f" | format(data.image.efficiencyScore*100) }}%
+-----------------------------
+{%- for ref in data.image.fileReference %}
+count: {{ ref.count }}
+size: {{ ref.sizeBytes | filesizeformat }}
+file: {{ ref.file }}
+{% endfor %}
+-----------------------------
+{% for layer in data.layer %}
+{% set cmd_list = layer.command.split(' ', 1) %}
+index: {{ layer.index }}
+id: {{ layer.id }}
+digestId: {{ layer.digestId }}
+size: {{ layer.sizeBytes | filesizeformat }}
+command: {{ cmd_list[0] }} {{ cmd_list[1] }}
+{%- endfor %}
+
