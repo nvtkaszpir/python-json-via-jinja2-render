@@ -159,7 +159,7 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
   </div>
 
   <!-- loop over each severity and generate new header + entries for it -->
-{% for severity in ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW', 'INFORMATIONAL', 'UNDEFINED'] %}
+{%- for severity in ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW', 'INFORMATIONAL', 'UNDEFINED'] -%}
   <div id="severity-{{ severity | lower }}" class="container">
 
       <div class="row info-box">
@@ -167,14 +167,11 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
           <h2>{{ severity }}</h2>
         </div>
       </div>
-
-
-    {%- for item in data.imageScanFindings.findings|selectattr('severity', 'equalto', severity) %}
-
+    {%- for item in data.imageScanFindings.findings|selectattr('severity', 'equalto', severity) -%}
       <div class="row item-box">
         <div class="col-md-2 text-center">
           <button type="button" class="btn btn-sm btn-block custom-{{ item.severity | lower }}">
-            {{ item.severity -}}
+            {{ item.severity | trim }}
           </button>
           <br/>
           <a title="Go to CVE page" href="{{ item.uri }}" target="_blank">{{ item.name }}</a>
@@ -184,7 +181,7 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
           {%- for attrs in item.attributes | sort (attribute="key") %}
             <dt>{{ attrs.key }}</dt>
             <dd>{{ attrs.value }}</dd>
-          {% endfor -%}
+          {%- endfor -%}
           </dl>
         </div>
         <div class="col-md-7 text-justify">
@@ -221,7 +218,7 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
     {% endfor %}
 
   </div>
-{% endfor %}
+{%- endfor %}
 {% else %}
 
   <div class="container">
@@ -241,7 +238,7 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
 
 
   </div>
-{% endif %}
+{%- endif %}
 
   <!-- footer for.. nothing -->
   <div id="footer" class="container">
