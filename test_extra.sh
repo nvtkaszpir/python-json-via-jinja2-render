@@ -6,7 +6,7 @@ set -e
 # don't even try to run shfmt on jinja2 template.
 
 # [wagoodman/dive](https://github.com/wagoodman/dive) HTML
-# 
+#  #
 
 python render.py \
   --input    examples/dive.json \
@@ -15,7 +15,7 @@ python render.py \
 
 
 # [wagoodman/dive](https://github.com/wagoodman/dive) plain text
-# 
+#  #
 
 python render.py \
   --input    examples/dive.json \
@@ -24,7 +24,7 @@ python render.py \
 
 
 # AWS ECR security scan CSV
-# 
+#  #
 
 python render.py \
   --input    examples/aws_ecr_scan_result.json \
@@ -33,7 +33,7 @@ python render.py \
 
 
 # AWS ECR security scan CSV for failed scan
-# 
+#  #
 
 python render.py \
   --input    examples/aws_ecr_scan_result_failed.json \
@@ -42,7 +42,7 @@ python render.py \
 
 
 # AWS ECR security scan HTML
-# 
+#  #
 
 python render.py \
   --input    examples/aws_ecr_scan_result.json \
@@ -51,7 +51,7 @@ python render.py \
 
 
 # AWS ECR security scan HTML for failed scan
-# 
+#  #
 
 python render.py \
   --input    examples/aws_ecr_scan_result_failed.json \
@@ -60,7 +60,7 @@ python render.py \
 
 
 # AWS ECR security scan plaintext long
-# 
+#  #
 
 python render.py \
   --input    examples/aws_ecr_scan_result.json \
@@ -69,7 +69,7 @@ python render.py \
 
 
 # AWS ECR security scan plaintext long for failed scan
-# 
+#  #
 
 python render.py \
   --input    examples/aws_ecr_scan_result_failed.json \
@@ -78,7 +78,7 @@ python render.py \
 
 
 # AWS ECR security scan plaintext short
-# 
+#  #
 
 python render.py \
   --input    examples/aws_ecr_scan_result.json \
@@ -87,7 +87,7 @@ python render.py \
 
 
 # AWS ECR security scan plaintext short for failed scan
-# 
+#  #
 
 python render.py \
   --input    examples/aws_ecr_scan_result_failed.json \
@@ -96,7 +96,7 @@ python render.py \
 
 
 # docker inspect plain text to simulate YAML cause we can!
-# This one is rendered totally within docker container
+# This one is rendered totally within docker container #
 
 docker run \
     -v "$(pwd)/templates/:/app/templates:ro" \
@@ -107,7 +107,7 @@ docker run \
 
 
 # skopeo stdout plaintext as MarkDown
-# 
+#  #
 
 python render.py \
   --input    examples/skopeo_stdout.json \

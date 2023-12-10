@@ -144,17 +144,17 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
   <!-- severities box -->
   <div class="container info-general info-severities">
       <div class="row">
-      {% for severity in ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW', 'INFORMATIONAL', 'UNDEFINED'] %}
-        {%- for key, value in data.imageScanFindings.findingSeverityCounts.items() | selectattr('0', 'equalto', severity) %}
+      {% for severity in ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW', 'INFORMATIONAL', 'UNDEFINED'] -%}
+        {%- for key, value in data.imageScanFindings.findingSeverityCounts.items() | selectattr('0', 'equalto', severity) -%}
         <div class="col-md-2 text-center">
           <a class="btn btn-sm btn-block custom-{{ severity | lower }}" role="button" href="#severity-{{ key | lower }}">{{ key }} {{ value }}</a>
         </div>
-        {% else %}
+        {% else -%}
         <div class="col-md-2 text-center">
           <a class="btn btn-sm btn-block custom-{{ severity | lower }}" role="button" href="#severity-{{ severity | lower }}">{{ severity }} 0</a>
         </div>
-        {% endfor %}
-      {% endfor %}
+        {% endfor -%}
+      {% endfor -%}
     </div>
   </div>
 
@@ -174,7 +174,7 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
       <div class="row item-box">
         <div class="col-md-2 text-center">
           <button type="button" class="btn btn-sm btn-block custom-{{ item.severity | lower }}">
-            {{ item.severity }}
+            {{ item.severity -}}
           </button>
           <br/>
           <a title="Go to CVE page" href="{{ item.uri }}" target="_blank">{{ item.name }}</a>
@@ -184,11 +184,11 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
           {%- for attrs in item.attributes | sort (attribute="key") %}
             <dt>{{ attrs.key }}</dt>
             <dd>{{ attrs.value }}</dd>
-          {% endfor %}
+          {% endfor -%}
           </dl>
         </div>
         <div class="col-md-7 text-justify">
-        {{ item.description | e }}
+        {{ item.description | e -}}
         <br/>
         <p class="text-right">
           <a title="Back to top" href="#top">
@@ -227,13 +227,13 @@ docker pull {{ data.repositoryName }}@{{ data.imageId.imageDigest }}
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center info-general info-severities">
-      Image scan {{ data.imageScanStatus.status }}
+      Image scan {{ data.imageScanStatus.status -}}
       </div>
     </div>
 
     <div class="row item-box">
       <div class="col-md-12 text-center">
-        {{ data.imageScanStatus.description }}
+        {{ data.imageScanStatus.description -}}
         <br/>
         <br/>
       </div>

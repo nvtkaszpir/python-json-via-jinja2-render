@@ -9,11 +9,10 @@ digests:
 workdir: /app/
 entrypoint: ['python', './render.py']
 cmd: ['--help']
-volumes: 
+
 arch: amd64
 os: linux
 labels:
 - org.opencontainers.image.authors = Michał Sochoń <kaszpir@gmail.com>
 - org.opencontainers.image.url = https://github.com/nvtkaszpir/python-json-via-jinja2-render
-
 ...

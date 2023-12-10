@@ -14,6 +14,5 @@ index: {{ layer.index }}
 id: {{ layer.id }}
 digestId: {{ layer.digestId }}
 size: {{ layer.sizeBytes | filesizeformat }}
-command: {{ cmd_list[0] }} {{ cmd_list[1] }}
+command: {{ cmd_list[0] }} {{ cmd_list[1] | trim -}}
 {%- endfor %}
-

@@ -6,14 +6,13 @@ Digest: `{{ data.Digest }}`
 
 Created: {{ data.Created }}
 
-
 # Tags
 {% for tag in data.RepoTags %}
 * {{ tag }}
-{%- endfor %}
+{%- endfor -%}
 
 {% set pull_tag = data.RepoTags | first %}
-Docker pull: 
+Docker pull:
 
 ```shell
 docker pull {{ data.Name }}:{{ pull_tag }}
@@ -40,4 +39,3 @@ Os: {{ data.Os }}
 {{ envvar }}
 {%- endfor %}
 ```
-

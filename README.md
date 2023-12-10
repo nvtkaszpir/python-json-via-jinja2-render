@@ -46,11 +46,13 @@ render.py --help
 | docker inspect plain text to simulate YAML cause we can! | [input](examples/docker_inspect.json) | [template](templates/docker_inspect_plaintext.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/docker_inspect_plaintext.yaml) |
 | skopeo stdout plaintext as MarkDown | [input](examples/skopeo_stdout.json) | [template](templates/skopeo_markdown.j2) | [output](https://nvtkaszpir.github.io/python-json-via-jinja2-render/examples/skopeo_markdown.md) |
 
-### Docker
+# Docker
 
 ```bash
 cat examples/aws_ecr_scan_result.json \
-| docker run -v $(pwd)/templates/:/app/templates:ro -i quay.io/kaszpir/python-json-via-jinja2-render -t templates/aws_ecr_scan_result_html.j2 \
+| docker run -v $(pwd)/templates/:/app/templates:ro \
+  -i quay.io/kaszpir/python-json-via-jinja2-render \
+  -t templates/aws_ecr_scan_result_html.j2 \
 > output.html
 ```
 
@@ -65,7 +67,7 @@ docker run \
         >output.html
 ```
 
-## Running in container with custom templates
+# Running in container with custom templates
 
 * Create `my_template` dir with desired template
 * write `my_template/custom.j2` file which is tailored to your json input files

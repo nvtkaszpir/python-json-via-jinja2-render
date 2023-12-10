@@ -474,4 +474,3 @@ scan_date;source_date;repo;tag;sha;severity;cve_name;cve_uri
 2020-10-02T20:0:00+00:00;2020-10-01T10:0:00+00:00;some/repo-image;6.6.6;sha256:deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef;UNDEFINED;CVE-2020-25710;https://security-tracker.debian.org/tracker/CVE-2020-25710;
 2020-10-02T20:0:00+00:00;2020-10-01T10:0:00+00:00;some/repo-image;6.6.6;sha256:deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef;UNDEFINED;CVE-2021-3177;https://security-tracker.debian.org/tracker/CVE-2021-3177;
 2020-10-02T20:0:00+00:00;2020-10-01T10:0:00+00:00;some/repo-image;6.6.6;sha256:deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef;UNDEFINED;CVE-2021-3177;https://security-tracker.debian.org/tracker/CVE-2021-3177;
-

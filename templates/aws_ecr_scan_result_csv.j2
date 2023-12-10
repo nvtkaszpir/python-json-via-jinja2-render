@@ -2,7 +2,7 @@ scan_date;source_date;repo;tag;sha;severity;cve_name;cve_uri
 {% if data.imageScanStatus.status == 'COMPLETE' -%}
 {% for item in data.imageScanFindings.findings -%}
 {{ data.imageScanFindings.imageScanCompletedAt }};{{ data.imageScanFindings.vulnerabilitySourceUpdatedAt }};{{ data.repositoryName }};{{ data.imageId.imageTag }};{{ data.imageId.imageDigest }};{{ item.severity }};{{ item.name }};{{ item.uri }};
-{% endfor %}
+{% endfor -%}
 {% else -%}
 {{ data.imageScanFindings.imageScanCompletedAt }};{{ data.imageScanFindings.vulnerabilitySourceUpdatedAt }};{{ data.repositoryName }};{{ data.imageId.imageTag }};{{ data.imageId.imageDigest }};{{ data.imageScanStatus.status }};{{ data.imageScanStatus.description }}
-{% endif %}
+{% endif -%}

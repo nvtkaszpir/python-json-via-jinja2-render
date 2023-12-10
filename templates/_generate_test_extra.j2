@@ -7,7 +7,7 @@ set -e
 {%- for item in data | sort(attribute="name") %}
 
 # {{ item.name|e }}
-# {{ item.comment }}
+# {{ item.comment }} #
 {% if item.type == 'docker' %}
 docker run \
     -v "$(pwd)/templates/:/app/templates:ro" \

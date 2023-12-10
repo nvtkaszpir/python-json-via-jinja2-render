@@ -17,1899 +17,1425 @@ findings:
     name: CVE-2019-19814
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19814
 severity: CRITICAL
-
     name: CVE-2019-19816
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19816
 severity: CRITICAL
-
     name: CVE-2020-27153
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27153
 severity: HIGH
-
     name: CVE-2019-25013
      uri: https://security-tracker.debian.org/tracker/CVE-2019-25013
 severity: HIGH
-
     name: CVE-2020-0452
      uri: https://security-tracker.debian.org/tracker/CVE-2020-0452
 severity: HIGH
-
     name: CVE-2020-0466
      uri: https://security-tracker.debian.org/tracker/CVE-2020-0466
 severity: HIGH
-
     name: CVE-2020-27777
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27777
 severity: HIGH
-
     name: CVE-2020-36158
      uri: https://security-tracker.debian.org/tracker/CVE-2020-36158
 severity: HIGH
-
     name: CVE-2013-7445
      uri: https://security-tracker.debian.org/tracker/CVE-2013-7445
 severity: HIGH
-
     name: CVE-2019-19074
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19074
 severity: HIGH
-
     name: CVE-2019-0145
      uri: https://security-tracker.debian.org/tracker/CVE-2019-0145
 severity: HIGH
-
     name: CVE-2020-29374
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29374
 severity: HIGH
-
     name: CVE-2020-0465
      uri: https://security-tracker.debian.org/tracker/CVE-2020-0465
 severity: HIGH
-
     name: CVE-2020-29661
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29661
 severity: HIGH
-
     name: CVE-2020-14386
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14386
 severity: HIGH
-
     name: CVE-2020-14356
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14356
 severity: HIGH
-
     name: CVE-2020-15780
      uri: https://security-tracker.debian.org/tracker/CVE-2020-15780
 severity: HIGH
-
     name: CVE-2020-29569
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29569
 severity: HIGH
-
     name: CVE-2020-25643
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25643
 severity: HIGH
-
     name: CVE-2019-19813
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19813
 severity: HIGH
-
     name: CVE-2020-27844
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27844
 severity: HIGH
-
     name: CVE-2020-27843
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27843
 severity: HIGH
-
     name: CVE-2020-25696
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25696
 severity: HIGH
-
     name: CVE-2020-27350
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27350
 severity: MEDIUM
-
     name: CVE-2020-8284
      uri: https://security-tracker.debian.org/tracker/CVE-2020-8284
 severity: MEDIUM
-
     name: CVE-2020-8285
      uri: https://security-tracker.debian.org/tracker/CVE-2020-8285
 severity: MEDIUM
-
     name: CVE-2020-8231
      uri: https://security-tracker.debian.org/tracker/CVE-2020-8231
 severity: MEDIUM
-
     name: CVE-2020-8177
      uri: https://security-tracker.debian.org/tracker/CVE-2020-8177
 severity: MEDIUM
-
     name: CVE-2020-8286
      uri: https://security-tracker.debian.org/tracker/CVE-2020-8286
 severity: MEDIUM
-
     name: CVE-2019-18804
      uri: https://security-tracker.debian.org/tracker/CVE-2019-18804
 severity: MEDIUM
-
     name: CVE-2020-15999
      uri: https://security-tracker.debian.org/tracker/CVE-2020-15999
 severity: MEDIUM
-
     name: CVE-2018-12886
      uri: https://security-tracker.debian.org/tracker/CVE-2018-12886
 severity: MEDIUM
-
     name: CVE-2020-1751
      uri: https://security-tracker.debian.org/tracker/CVE-2020-1751
 severity: MEDIUM
-
     name: CVE-2020-27767
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27767
 severity: MEDIUM
-
     name: CVE-2020-27773
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27773
 severity: MEDIUM
-
     name: CVE-2020-19667
      uri: https://security-tracker.debian.org/tracker/CVE-2020-19667
 severity: MEDIUM
-
     name: CVE-2020-27760
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27760
 severity: MEDIUM
-
     name: CVE-2020-25674
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25674
 severity: MEDIUM
-
     name: CVE-2020-25676
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25676
 severity: MEDIUM
-
     name: CVE-2020-29599
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29599
 severity: MEDIUM
-
     name: CVE-2020-25665
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25665
 severity: MEDIUM
-
     name: CVE-2020-27752
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27752
 severity: MEDIUM
-
     name: CVE-2020-27750
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27750
 severity: MEDIUM
-
     name: CVE-2020-27758
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27758
 severity: MEDIUM
-
     name: CVE-2020-27766
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27766
 severity: MEDIUM
-
     name: CVE-2020-27757
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27757
 severity: MEDIUM
-
     name: CVE-2020-27771
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27771
 severity: MEDIUM
-
     name: CVE-2020-25664
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25664
 severity: MEDIUM
-
     name: CVE-2020-27770
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27770
 severity: MEDIUM
-
     name: CVE-2020-27764
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27764
 severity: MEDIUM
-
     name: CVE-2020-27759
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27759
 severity: MEDIUM
-
     name: CVE-2020-27763
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27763
 severity: MEDIUM
-
     name: CVE-2020-27754
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27754
 severity: MEDIUM
-
     name: CVE-2020-27762
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27762
 severity: MEDIUM
-
     name: CVE-2020-27560
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27560
 severity: MEDIUM
-
     name: CVE-2020-27751
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27751
 severity: MEDIUM
-
     name: CVE-2020-27774
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27774
 severity: MEDIUM
-
     name: CVE-2020-25666
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25666
 severity: MEDIUM
-
     name: CVE-2020-27772
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27772
 severity: MEDIUM
-
     name: CVE-2020-27775
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27775
 severity: MEDIUM
-
     name: CVE-2020-25675
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25675
 severity: MEDIUM
-
     name: CVE-2020-27765
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27765
 severity: MEDIUM
-
     name: CVE-2020-27776
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27776
 severity: MEDIUM
-
     name: CVE-2020-27761
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27761
 severity: MEDIUM
-
     name: CVE-2020-28196
      uri: https://security-tracker.debian.org/tracker/CVE-2020-28196
 severity: MEDIUM
-
     name: CVE-2019-20367
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20367
 severity: MEDIUM
-
     name: CVE-2019-12904
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12904
 severity: MEDIUM
-
     name: CVE-2019-12290
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12290
 severity: MEDIUM
-
     name: CVE-2020-13790
      uri: https://security-tracker.debian.org/tracker/CVE-2020-13790
 severity: MEDIUM
-
     name: CVE-2020-28241
      uri: https://security-tracker.debian.org/tracker/CVE-2020-28241
 severity: MEDIUM
-
     name: CVE-2019-20446
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20446
 severity: MEDIUM
-
     name: CVE-2019-13115
      uri: https://security-tracker.debian.org/tracker/CVE-2019-13115
 severity: MEDIUM
-
     name: CVE-2007-3996
      uri: https://security-tracker.debian.org/tracker/CVE-2007-3996
 severity: MEDIUM
-
     name: CVE-2009-3546
      uri: https://security-tracker.debian.org/tracker/CVE-2009-3546
 severity: MEDIUM
-
     name: CVE-2020-14363
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14363
 severity: MEDIUM
-
     name: CVE-2020-14344
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14344
 severity: MEDIUM
-
     name: CVE-2018-14567
      uri: https://security-tracker.debian.org/tracker/CVE-2018-14567
 severity: MEDIUM
-
     name: CVE-2017-16932
      uri: https://security-tracker.debian.org/tracker/CVE-2017-16932
 severity: MEDIUM
-
     name: CVE-2019-20388
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20388
 severity: MEDIUM
-
     name: CVE-2016-9318
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9318
 severity: MEDIUM
-
     name: CVE-2020-7595
      uri: https://security-tracker.debian.org/tracker/CVE-2020-7595
 severity: MEDIUM
-
     name: CVE-2019-19956
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19956
 severity: MEDIUM
-
     name: CVE-2020-14351
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14351
 severity: MEDIUM
-
     name: CVE-2020-27675
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27675
 severity: MEDIUM
-
     name: CVE-2020-25212
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25212
 severity: MEDIUM
-
     name: CVE-2020-28915
      uri: https://security-tracker.debian.org/tracker/CVE-2020-28915
 severity: MEDIUM
-
     name: CVE-2019-19378
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19378
 severity: MEDIUM
-
     name: CVE-2019-19377
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19377
 severity: MEDIUM
-
     name: CVE-2020-25641
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25641
 severity: MEDIUM
-
     name: CVE-2020-11725
      uri: https://security-tracker.debian.org/tracker/CVE-2020-11725
 severity: MEDIUM
-
     name: CVE-2020-16166
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16166
 severity: MEDIUM
-
     name: CVE-2020-25645
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25645
 severity: MEDIUM
-
     name: CVE-2020-15437
      uri: https://security-tracker.debian.org/tracker/CVE-2020-15437
 severity: MEDIUM
-
     name: CVE-2020-29568
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29568
 severity: MEDIUM
-
     name: CVE-2019-19449
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19449
 severity: MEDIUM
-
     name: CVE-2019-20794
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20794
 severity: MEDIUM
-
     name: CVE-2020-25705
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25705
 severity: MEDIUM
-
     name: CVE-2020-12888
      uri: https://security-tracker.debian.org/tracker/CVE-2020-12888
 severity: MEDIUM
-
     name: CVE-2018-3693
      uri: https://security-tracker.debian.org/tracker/CVE-2018-3693
 severity: MEDIUM
-
     name: CVE-2020-12351
      uri: https://security-tracker.debian.org/tracker/CVE-2020-12351
 severity: MEDIUM
-
     name: CVE-2020-28374
      uri: https://security-tracker.debian.org/tracker/CVE-2020-28374
 severity: MEDIUM
-
     name: CVE-2020-14390
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14390
 severity: MEDIUM
-
     name: CVE-2020-15802
      uri: https://security-tracker.debian.org/tracker/CVE-2020-15802
 severity: MEDIUM
-
     name: CVE-2019-19448
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19448
 severity: MEDIUM
-
     name: CVE-2020-16119
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16119
 severity: MEDIUM
-
     name: CVE-2020-27835
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27835
 severity: MEDIUM
-
     name: CVE-2020-27825
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27825
 severity: MEDIUM
-
     name: CVE-2020-25704
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25704
 severity: MEDIUM
-
     name: CVE-2020-25285
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25285
 severity: MEDIUM
-
     name: CVE-2020-28974
      uri: https://security-tracker.debian.org/tracker/CVE-2020-28974
 severity: MEDIUM
-
     name: CVE-2020-27673
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27673
 severity: MEDIUM
-
     name: CVE-2020-14789
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14789
 severity: MEDIUM
-
     name: CVE-2020-14812
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14812
 severity: MEDIUM
-
     name: CVE-2020-14776
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14776
 severity: MEDIUM
-
     name: CVE-2020-14765
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14765
 severity: MEDIUM
-
     name: CVE-2020-16589
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16589
 severity: MEDIUM
-
     name: CVE-2020-16588
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16588
 severity: MEDIUM
-
     name: CVE-2020-27841
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27841
 severity: MEDIUM
-
     name: CVE-2020-27842
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27842
 severity: MEDIUM
-
     name: CVE-2020-15389
      uri: https://security-tracker.debian.org/tracker/CVE-2020-15389
 severity: MEDIUM
-
     name: CVE-2020-8112
      uri: https://security-tracker.debian.org/tracker/CVE-2020-8112
 severity: MEDIUM
-
     name: CVE-2019-12973
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12973
 severity: MEDIUM
-
     name: CVE-2020-27845
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27845
 severity: MEDIUM
-
     name: CVE-2020-6851
      uri: https://security-tracker.debian.org/tracker/CVE-2020-6851
 severity: MEDIUM
-
     name: CVE-2020-25692
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25692
 severity: MEDIUM
-
     name: CVE-2020-1971
      uri: https://security-tracker.debian.org/tracker/CVE-2020-1971
 severity: MEDIUM
-
     name: CVE-2020-29362
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29362
 severity: MEDIUM
-
     name: CVE-2020-29361
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29361
 severity: MEDIUM
-
     name: CVE-2019-20454
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20454
 severity: MEDIUM
-
     name: CVE-2020-14155
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14155
 severity: MEDIUM
-
     name: CVE-2020-25695
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25695
 severity: MEDIUM
-
     name: CVE-2020-25694
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25694
 severity: MEDIUM
-
     name: CVE-2020-14350
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14350
 severity: MEDIUM
-
     name: CVE-2020-26116
      uri: https://security-tracker.debian.org/tracker/CVE-2020-26116
 severity: MEDIUM
-
     name: CVE-2020-13630
      uri: https://security-tracker.debian.org/tracker/CVE-2020-13630
 severity: MEDIUM
-
     name: CVE-2019-20218
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20218
 severity: MEDIUM
-
     name: CVE-2019-16168
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16168
 severity: MEDIUM
-
     name: CVE-2019-3844
      uri: https://security-tracker.debian.org/tracker/CVE-2019-3844
 severity: MEDIUM
-
     name: CVE-2019-3843
      uri: https://security-tracker.debian.org/tracker/CVE-2019-3843
 severity: MEDIUM
-
     name: CVE-2018-10910
      uri: https://security-tracker.debian.org/tracker/CVE-2018-10910
 severity: LOW
-
     name: CVE-2017-7475
      uri: https://security-tracker.debian.org/tracker/CVE-2017-7475
 severity: LOW
-
     name: CVE-2017-9814
      uri: https://security-tracker.debian.org/tracker/CVE-2017-9814
 severity: LOW
-
     name: CVE-2018-18064
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18064
 severity: LOW
-
     name: CVE-2019-6461
      uri: https://security-tracker.debian.org/tracker/CVE-2019-6461
 severity: LOW
-
     name: CVE-2019-6462
      uri: https://security-tracker.debian.org/tracker/CVE-2019-6462
 severity: LOW
-
     name: CVE-2016-2781
      uri: https://security-tracker.debian.org/tracker/CVE-2016-2781
 severity: LOW
-
     name: CVE-2019-15142
      uri: https://security-tracker.debian.org/tracker/CVE-2019-15142
 severity: LOW
-
     name: CVE-2019-15143
      uri: https://security-tracker.debian.org/tracker/CVE-2019-15143
 severity: LOW
-
     name: CVE-2019-15145
      uri: https://security-tracker.debian.org/tracker/CVE-2019-15145
 severity: LOW
-
     name: CVE-2019-15144
      uri: https://security-tracker.debian.org/tracker/CVE-2019-15144
 severity: LOW
-
     name: CVE-2019-15847
      uri: https://security-tracker.debian.org/tracker/CVE-2019-15847
 severity: LOW
-
     name: CVE-2019-19126
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19126
 severity: LOW
-
     name: CVE-2020-1752
      uri: https://security-tracker.debian.org/tracker/CVE-2020-1752
 severity: LOW
-
     name: CVE-2016-10228
      uri: https://security-tracker.debian.org/tracker/CVE-2016-10228
 severity: LOW
-
     name: CVE-2020-10029
      uri: https://security-tracker.debian.org/tracker/CVE-2020-10029
 severity: LOW
-
     name: CVE-2020-6096
      uri: https://security-tracker.debian.org/tracker/CVE-2020-6096
 severity: LOW
-
     name: CVE-2019-14855
      uri: https://security-tracker.debian.org/tracker/CVE-2019-14855
 severity: LOW
-
     name: CVE-2020-10251
      uri: https://security-tracker.debian.org/tracker/CVE-2020-10251
 severity: LOW
-
     name: CVE-2017-8871
      uri: https://security-tracker.debian.org/tracker/CVE-2017-8871
 severity: LOW
-
     name: CVE-2020-12825
      uri: https://security-tracker.debian.org/tracker/CVE-2020-12825
 severity: LOW
-
     name: CVE-2017-8834
      uri: https://security-tracker.debian.org/tracker/CVE-2017-8834
 severity: LOW
-
     name: CVE-2019-13627
      uri: https://security-tracker.debian.org/tracker/CVE-2019-13627
 severity: LOW
-
     name: CVE-2018-1152
      uri: https://security-tracker.debian.org/tracker/CVE-2018-1152
 severity: LOW
-
     name: CVE-2019-2201
      uri: https://security-tracker.debian.org/tracker/CVE-2019-2201
 severity: LOW
-
     name: CVE-2018-14498
      uri: https://security-tracker.debian.org/tracker/CVE-2018-14498
 severity: LOW
-
     name: CVE-2019-17498
      uri: https://security-tracker.debian.org/tracker/CVE-2019-17498
 severity: LOW
-
     name: CVE-2007-3476
      uri: https://security-tracker.debian.org/tracker/CVE-2007-3476
 severity: LOW
-
     name: CVE-2007-3477
      uri: https://security-tracker.debian.org/tracker/CVE-2007-3477
 severity: LOW
-
     name: CVE-2018-14404
      uri: https://security-tracker.debian.org/tracker/CVE-2018-14404
 severity: LOW
-
     name: CVE-2017-18258
      uri: https://security-tracker.debian.org/tracker/CVE-2017-18258
 severity: LOW
-
     name: CVE-2019-19039
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19039
 severity: LOW
-
     name: CVE-2019-0147
      uri: https://security-tracker.debian.org/tracker/CVE-2019-0147
 severity: LOW
-
     name: CVE-2020-29371
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29371
 severity: LOW
-
     name: CVE-2020-4788
      uri: https://security-tracker.debian.org/tracker/CVE-2020-4788
 severity: LOW
-
     name: CVE-2019-0146
      uri: https://security-tracker.debian.org/tracker/CVE-2019-0146
 severity: LOW
-
     name: CVE-2020-8694
      uri: https://security-tracker.debian.org/tracker/CVE-2020-8694
 severity: LOW
-
     name: CVE-2019-0149
      uri: https://security-tracker.debian.org/tracker/CVE-2019-0149
 severity: LOW
-
     name: CVE-2020-25284
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25284
 severity: LOW
-
     name: CVE-2019-0148
      uri: https://security-tracker.debian.org/tracker/CVE-2019-0148
 severity: LOW
-
     name: CVE-2020-14304
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14304
 severity: LOW
-
     name: CVE-2019-19073
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19073
 severity: LOW
-
     name: CVE-2017-0630
      uri: https://security-tracker.debian.org/tracker/CVE-2017-0630
 severity: LOW
-
     name: CVE-2020-25211
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25211
 severity: LOW
-
     name: CVE-2020-12352
      uri: https://security-tracker.debian.org/tracker/CVE-2020-12352
 severity: LOW
-
     name: CVE-2019-3874
      uri: https://security-tracker.debian.org/tracker/CVE-2019-3874
 severity: LOW
-
     name: CVE-2019-19318
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19318
 severity: LOW
-
     name: CVE-2020-29660
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29660
 severity: LOW
-
     name: CVE-2020-25656
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25656
 severity: LOW
-
     name: CVE-2020-26088
      uri: https://security-tracker.debian.org/tracker/CVE-2020-26088
 severity: LOW
-
     name: CVE-2020-14314
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14314
 severity: LOW
-
     name: CVE-2018-12928
      uri: https://security-tracker.debian.org/tracker/CVE-2018-12928
 severity: LOW
-
     name: CVE-2019-17543
      uri: https://security-tracker.debian.org/tracker/CVE-2019-17543
 severity: LOW
-
     name: CVE-2019-6988
      uri: https://security-tracker.debian.org/tracker/CVE-2019-6988
 severity: LOW
-
     name: CVE-2018-15919
      uri: https://security-tracker.debian.org/tracker/CVE-2018-15919
 severity: LOW
-
     name: CVE-2019-1551
      uri: https://security-tracker.debian.org/tracker/CVE-2019-1551
 severity: LOW
-
     name: CVE-2019-20907
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20907
 severity: LOW
-
     name: CVE-2020-8492
      uri: https://security-tracker.debian.org/tracker/CVE-2020-8492
 severity: LOW
-
     name: CVE-2018-7169
      uri: https://security-tracker.debian.org/tracker/CVE-2018-7169
 severity: LOW
-
     name: CVE-2020-13632
      uri: https://security-tracker.debian.org/tracker/CVE-2020-13632
 severity: LOW
-
     name: CVE-2020-13434
      uri: https://security-tracker.debian.org/tracker/CVE-2020-13434
 severity: LOW
-
     name: CVE-2011-3374
      uri: https://security-tracker.debian.org/tracker/CVE-2011-3374
 severity: INFORMATIONAL
-
     name: CVE-2019-18276
      uri: https://security-tracker.debian.org/tracker/CVE-2019-18276
 severity: INFORMATIONAL
-
     name: CVE-2018-17358
      uri: https://security-tracker.debian.org/tracker/CVE-2018-17358
 severity: INFORMATIONAL
-
     name: CVE-2020-16599
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16599
 severity: INFORMATIONAL
-
     name: CVE-2018-19932
      uri: https://security-tracker.debian.org/tracker/CVE-2018-19932
 severity: INFORMATIONAL
-
     name: CVE-2018-12697
      uri: https://security-tracker.debian.org/tracker/CVE-2018-12697
 severity: INFORMATIONAL
-
     name: CVE-2019-12972
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12972
 severity: INFORMATIONAL
-
     name: CVE-2018-12934
      uri: https://security-tracker.debian.org/tracker/CVE-2018-12934
 severity: INFORMATIONAL
-
     name: CVE-2019-14444
      uri: https://security-tracker.debian.org/tracker/CVE-2019-14444
 severity: INFORMATIONAL
-
     name: CVE-2018-19931
      uri: https://security-tracker.debian.org/tracker/CVE-2018-19931
 severity: INFORMATIONAL
-
     name: CVE-2019-9071
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9071
 severity: INFORMATIONAL
-
     name: CVE-2020-35496
      uri: https://security-tracker.debian.org/tracker/CVE-2020-35496
 severity: INFORMATIONAL
-
     name: CVE-2020-35448
      uri: https://security-tracker.debian.org/tracker/CVE-2020-35448
 severity: INFORMATIONAL
-
     name: CVE-2018-17794
      uri: https://security-tracker.debian.org/tracker/CVE-2018-17794
 severity: INFORMATIONAL
-
     name: CVE-2018-17360
      uri: https://security-tracker.debian.org/tracker/CVE-2018-17360
 severity: INFORMATIONAL
-
     name: CVE-2019-1010204
      uri: https://security-tracker.debian.org/tracker/CVE-2019-1010204
 severity: INFORMATIONAL
-
     name: CVE-2018-18607
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18607
 severity: INFORMATIONAL
-
     name: CVE-2017-13716
      uri: https://security-tracker.debian.org/tracker/CVE-2017-13716
 severity: INFORMATIONAL
-
     name: CVE-2018-18309
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18309
 severity: INFORMATIONAL
-
     name: CVE-2018-20712
      uri: https://security-tracker.debian.org/tracker/CVE-2018-20712
 severity: INFORMATIONAL
-
     name: CVE-2018-9138
      uri: https://security-tracker.debian.org/tracker/CVE-2018-9138
 severity: INFORMATIONAL
-
     name: CVE-2018-12700
      uri: https://security-tracker.debian.org/tracker/CVE-2018-12700
 severity: INFORMATIONAL
-
     name: CVE-2019-9074
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9074
 severity: INFORMATIONAL
-
     name: CVE-2020-16593
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16593
 severity: INFORMATIONAL
-
     name: CVE-2018-18700
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18700
 severity: INFORMATIONAL
-
     name: CVE-2018-18605
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18605
 severity: INFORMATIONAL
-
     name: CVE-2018-18484
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18484
 severity: INFORMATIONAL
-
     name: CVE-2020-16591
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16591
 severity: INFORMATIONAL
-
     name: CVE-2020-16590
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16590
 severity: INFORMATIONAL
-
     name: CVE-2018-20671
      uri: https://security-tracker.debian.org/tracker/CVE-2018-20671
 severity: INFORMATIONAL
-
     name: CVE-2018-18606
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18606
 severity: INFORMATIONAL
-
     name: CVE-2019-9077
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9077
 severity: INFORMATIONAL
-
     name: CVE-2018-20673
      uri: https://security-tracker.debian.org/tracker/CVE-2018-20673
 severity: INFORMATIONAL
-
     name: CVE-2020-35495
      uri: https://security-tracker.debian.org/tracker/CVE-2020-35495
 severity: INFORMATIONAL
-
     name: CVE-2018-9996
      uri: https://security-tracker.debian.org/tracker/CVE-2018-9996
 severity: INFORMATIONAL
-
     name: CVE-2020-16592
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16592
 severity: INFORMATIONAL
-
     name: CVE-2019-14250
      uri: https://security-tracker.debian.org/tracker/CVE-2019-14250
 severity: INFORMATIONAL
-
     name: CVE-2018-18483
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18483
 severity: INFORMATIONAL
-
     name: CVE-2018-20623
      uri: https://security-tracker.debian.org/tracker/CVE-2018-20623
 severity: INFORMATIONAL
-
     name: CVE-2018-1000876
      uri: https://security-tracker.debian.org/tracker/CVE-2018-1000876
 severity: INFORMATIONAL
-
     name: CVE-2018-20651
      uri: https://security-tracker.debian.org/tracker/CVE-2018-20651
 severity: INFORMATIONAL
-
     name: CVE-2018-12699
      uri: https://security-tracker.debian.org/tracker/CVE-2018-12699
 severity: INFORMATIONAL
-
     name: CVE-2019-17451
      uri: https://security-tracker.debian.org/tracker/CVE-2019-17451
 severity: INFORMATIONAL
-
     name: CVE-2018-18701
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18701
 severity: INFORMATIONAL
-
     name: CVE-2019-9073
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9073
 severity: INFORMATIONAL
-
     name: CVE-2018-17359
      uri: https://security-tracker.debian.org/tracker/CVE-2018-17359
 severity: INFORMATIONAL
-
     name: CVE-2018-17985
      uri: https://security-tracker.debian.org/tracker/CVE-2018-17985
 severity: INFORMATIONAL
-
     name: CVE-2019-9070
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9070
 severity: INFORMATIONAL
-
     name: CVE-2020-35507
      uri: https://security-tracker.debian.org/tracker/CVE-2020-35507
 severity: INFORMATIONAL
-
     name: CVE-2020-35493
      uri: https://security-tracker.debian.org/tracker/CVE-2020-35493
 severity: INFORMATIONAL
-
     name: CVE-2020-35494
      uri: https://security-tracker.debian.org/tracker/CVE-2020-35494
 severity: INFORMATIONAL
-
     name: CVE-2018-20002
      uri: https://security-tracker.debian.org/tracker/CVE-2018-20002
 severity: INFORMATIONAL
-
     name: CVE-2018-12698
      uri: https://security-tracker.debian.org/tracker/CVE-2018-12698
 severity: INFORMATIONAL
-
     name: CVE-2019-9075
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9075
 severity: INFORMATIONAL
-
     name: CVE-2019-17450
      uri: https://security-tracker.debian.org/tracker/CVE-2019-17450
 severity: INFORMATIONAL
-
     name: CVE-2019-1010180
      uri: https://security-tracker.debian.org/tracker/CVE-2019-1010180
 severity: INFORMATIONAL
-
     name: CVE-2016-9918
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9918
 severity: INFORMATIONAL
-
     name: CVE-2016-9917
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9917
 severity: INFORMATIONAL
-
     name: CVE-2016-9798
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9798
 severity: INFORMATIONAL
-
     name: CVE-2016-9801
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9801
 severity: INFORMATIONAL
-
     name: CVE-2016-9797
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9797
 severity: INFORMATIONAL
-
     name: CVE-2016-9802
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9802
 severity: INFORMATIONAL
-
     name: CVE-2016-9799
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9799
 severity: INFORMATIONAL
-
     name: CVE-2016-9803
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9803
 severity: INFORMATIONAL
-
     name: CVE-2016-9804
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9804
 severity: INFORMATIONAL
-
     name: CVE-2016-9800
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9800
 severity: INFORMATIONAL
-
     name: CVE-2017-18018
      uri: https://security-tracker.debian.org/tracker/CVE-2017-18018
 severity: INFORMATIONAL
-
     name: CVE-2020-8169
      uri: https://security-tracker.debian.org/tracker/CVE-2020-8169
 severity: INFORMATIONAL
-
     name: CVE-2013-0340
      uri: https://security-tracker.debian.org/tracker/CVE-2013-0340
 severity: INFORMATIONAL
-
     name: CVE-2018-1000021
      uri: https://security-tracker.debian.org/tracker/CVE-2018-1000021
 severity: INFORMATIONAL
-
     name: CVE-2012-0039
      uri: https://security-tracker.debian.org/tracker/CVE-2012-0039
 severity: INFORMATIONAL
-
     name: CVE-2020-35457
      uri: https://security-tracker.debian.org/tracker/CVE-2020-35457
 severity: INFORMATIONAL
-
     name: CVE-2019-1010024
      uri: https://security-tracker.debian.org/tracker/CVE-2019-1010024
 severity: INFORMATIONAL
-
     name: CVE-2019-1010025
      uri: https://security-tracker.debian.org/tracker/CVE-2019-1010025
 severity: INFORMATIONAL
-
     name: CVE-2010-4052
      uri: https://security-tracker.debian.org/tracker/CVE-2010-4052
 severity: INFORMATIONAL
-
     name: CVE-2010-4051
      uri: https://security-tracker.debian.org/tracker/CVE-2010-4051
 severity: INFORMATIONAL
-
     name: CVE-2010-4756
      uri: https://security-tracker.debian.org/tracker/CVE-2010-4756
 severity: INFORMATIONAL
-
     name: CVE-2019-1010023
      uri: https://security-tracker.debian.org/tracker/CVE-2019-1010023
 severity: INFORMATIONAL
-
     name: CVE-2018-20796
      uri: https://security-tracker.debian.org/tracker/CVE-2018-20796
 severity: INFORMATIONAL
-
     name: CVE-2019-9192
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9192
 severity: INFORMATIONAL
-
     name: CVE-2019-1010022
      uri: https://security-tracker.debian.org/tracker/CVE-2019-1010022
 severity: INFORMATIONAL
-
     name: CVE-2020-24659
      uri: https://security-tracker.debian.org/tracker/CVE-2020-24659
 severity: INFORMATIONAL
-
     name: CVE-2011-3389
      uri: https://security-tracker.debian.org/tracker/CVE-2011-3389
 severity: INFORMATIONAL
-
     name: CVE-2020-27755
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27755
 severity: INFORMATIONAL
-
     name: CVE-2020-27756
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27756
 severity: INFORMATIONAL
-
     name: CVE-2008-3134
      uri: https://security-tracker.debian.org/tracker/CVE-2008-3134
 severity: INFORMATIONAL
-
     name: CVE-2020-27753
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27753
 severity: INFORMATIONAL
-
     name: CVE-2005-0406
      uri: https://security-tracker.debian.org/tracker/CVE-2005-0406
 severity: INFORMATIONAL
-
     name: CVE-2017-11755
      uri: https://security-tracker.debian.org/tracker/CVE-2017-11755
 severity: INFORMATIONAL
-
     name: CVE-2017-7275
      uri: https://security-tracker.debian.org/tracker/CVE-2017-7275
 severity: INFORMATIONAL
-
     name: CVE-2019-16709
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16709
 severity: INFORMATIONAL
-
     name: CVE-2018-15607
      uri: https://security-tracker.debian.org/tracker/CVE-2018-15607
 severity: INFORMATIONAL
-
     name: CVE-2016-8678
      uri: https://security-tracker.debian.org/tracker/CVE-2016-8678
 severity: INFORMATIONAL
-
     name: CVE-2019-13310
      uri: https://security-tracker.debian.org/tracker/CVE-2019-13310
 severity: INFORMATIONAL
-
     name: CVE-2017-11754
      uri: https://security-tracker.debian.org/tracker/CVE-2017-11754
 severity: INFORMATIONAL
-
     name: CVE-2019-20795
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20795
 severity: INFORMATIONAL
-
     name: CVE-2012-2663
      uri: https://security-tracker.debian.org/tracker/CVE-2012-2663
 severity: INFORMATIONAL
-
     name: CVE-2019-11360
      uri: https://security-tracker.debian.org/tracker/CVE-2019-11360
 severity: INFORMATIONAL
-
     name: CVE-2017-9937
      uri: https://security-tracker.debian.org/tracker/CVE-2017-9937
 severity: INFORMATIONAL
-
     name: CVE-2004-0971
      uri: https://security-tracker.debian.org/tracker/CVE-2004-0971
 severity: INFORMATIONAL
-
     name: CVE-2018-5709
      uri: https://security-tracker.debian.org/tracker/CVE-2018-5709
 severity: INFORMATIONAL
-
     name: CVE-2018-6829
      uri: https://security-tracker.debian.org/tracker/CVE-2018-6829
 severity: INFORMATIONAL
-
     name: CVE-2018-11813
      uri: https://security-tracker.debian.org/tracker/CVE-2018-11813
 severity: INFORMATIONAL
-
     name: CVE-2017-15232
      uri: https://security-tracker.debian.org/tracker/CVE-2017-15232
 severity: INFORMATIONAL
-
     name: CVE-2018-14550
      uri: https://security-tracker.debian.org/tracker/CVE-2018-14550
 severity: INFORMATIONAL
-
     name: CVE-2019-6129
      uri: https://security-tracker.debian.org/tracker/CVE-2019-6129
 severity: INFORMATIONAL
-
     name: CVE-2018-14048
      uri: https://security-tracker.debian.org/tracker/CVE-2018-14048
 severity: INFORMATIONAL
-
     name: CVE-2019-9893
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9893
 severity: INFORMATIONAL
-
     name: CVE-2018-1000654
      uri: https://security-tracker.debian.org/tracker/CVE-2018-1000654
 severity: INFORMATIONAL
-
     name: CVE-2016-9085
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9085
 severity: INFORMATIONAL
-
     name: CVE-2020-24977
      uri: https://security-tracker.debian.org/tracker/CVE-2020-24977
 severity: INFORMATIONAL
-
     name: CVE-2015-9019
      uri: https://security-tracker.debian.org/tracker/CVE-2015-9019
 severity: INFORMATIONAL
-
     name: CVE-2014-9900
      uri: https://security-tracker.debian.org/tracker/CVE-2014-9900
 severity: INFORMATIONAL
-
     name: CVE-2019-12382
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12382
 severity: INFORMATIONAL
-
     name: CVE-2019-12378
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12378
 severity: INFORMATIONAL
-
     name: CVE-2019-19770
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19770
 severity: INFORMATIONAL
-
     name: CVE-2011-4917
      uri: https://security-tracker.debian.org/tracker/CVE-2011-4917
 severity: INFORMATIONAL
-
     name: CVE-2020-28941
      uri: https://security-tracker.debian.org/tracker/CVE-2020-28941
 severity: INFORMATIONAL
-
     name: CVE-2014-9892
      uri: https://security-tracker.debian.org/tracker/CVE-2014-9892
 severity: INFORMATIONAL
-
     name: CVE-2019-12380
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12380
 severity: INFORMATIONAL
-
     name: CVE-2019-12455
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12455
 severity: INFORMATIONAL
-
     name: CVE-2020-14331
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14331
 severity: INFORMATIONAL
-
     name: CVE-2020-27830
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27830
 severity: INFORMATIONAL
-
     name: CVE-2019-16089
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16089
 severity: INFORMATIONAL
-
     name: CVE-2019-19064
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19064
 severity: INFORMATIONAL
-
     name: CVE-2019-16233
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16233
 severity: INFORMATIONAL
-
     name: CVE-2020-26541
      uri: https://security-tracker.debian.org/tracker/CVE-2020-26541
 severity: INFORMATIONAL
-
     name: CVE-2018-17977
      uri: https://security-tracker.debian.org/tracker/CVE-2018-17977
 severity: INFORMATIONAL
-
     name: CVE-2019-16231
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16231
 severity: INFORMATIONAL
-
     name: CVE-2020-10781
      uri: https://security-tracker.debian.org/tracker/CVE-2020-10781
 severity: INFORMATIONAL
-
     name: CVE-2004-0230
      uri: https://security-tracker.debian.org/tracker/CVE-2004-0230
 severity: INFORMATIONAL
-
     name: CVE-2019-16234
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16234
 severity: INFORMATIONAL
-
     name: CVE-2016-8660
      uri: https://security-tracker.debian.org/tracker/CVE-2016-8660
 severity: INFORMATIONAL
-
     name: CVE-2019-12379
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12379
 severity: INFORMATIONAL
-
     name: CVE-2019-19083
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19083
 severity: INFORMATIONAL
-
     name: CVE-2019-19072
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19072
 severity: INFORMATIONAL
-
     name: CVE-2020-14385
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14385
 severity: INFORMATIONAL
-
     name: CVE-2011-4915
      uri: https://security-tracker.debian.org/tracker/CVE-2011-4915
 severity: INFORMATIONAL
-
     name: CVE-2017-13693
      uri: https://security-tracker.debian.org/tracker/CVE-2017-13693
 severity: INFORMATIONAL
-
     name: CVE-2010-5321
      uri: https://security-tracker.debian.org/tracker/CVE-2010-5321
 severity: INFORMATIONAL
-
     name: CVE-2019-19054
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19054
 severity: INFORMATIONAL
-
     name: CVE-2007-3719
      uri: https://security-tracker.debian.org/tracker/CVE-2007-3719
 severity: INFORMATIONAL
-
     name: CVE-2008-4609
      uri: https://security-tracker.debian.org/tracker/CVE-2008-4609
 severity: INFORMATIONAL
-
     name: CVE-2019-19067
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19067
 severity: INFORMATIONAL
-
     name: CVE-2019-11191
      uri: https://security-tracker.debian.org/tracker/CVE-2019-11191
 severity: INFORMATIONAL
-
     name: CVE-2019-19082
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19082
 severity: INFORMATIONAL
-
     name: CVE-2019-12456
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12456
 severity: INFORMATIONAL
-
     name: CVE-2019-15213
      uri: https://security-tracker.debian.org/tracker/CVE-2019-15213
 severity: INFORMATIONAL
-
     name: CVE-2019-16229
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16229
 severity: INFORMATIONAL
-
     name: CVE-2021-3178
      uri: https://security-tracker.debian.org/tracker/CVE-2021-3178
 severity: INFORMATIONAL
-
     name: CVE-2016-10723
      uri: https://security-tracker.debian.org/tracker/CVE-2016-10723
 severity: INFORMATIONAL
-
     name: CVE-2005-3660
      uri: https://security-tracker.debian.org/tracker/CVE-2005-3660
 severity: INFORMATIONAL
-
     name: CVE-2019-19070
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19070
 severity: INFORMATIONAL
-
     name: CVE-2019-12615
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12615
 severity: INFORMATIONAL
-
     name: CVE-2012-4542
      uri: https://security-tracker.debian.org/tracker/CVE-2012-4542
 severity: INFORMATIONAL
-
     name: CVE-2019-19061
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19061
 severity: INFORMATIONAL
-
     name: CVE-2021-20177
      uri: https://security-tracker.debian.org/tracker/CVE-2021-20177
 severity: INFORMATIONAL
-
     name: CVE-2019-15794
      uri: https://security-tracker.debian.org/tracker/CVE-2019-15794
 severity: INFORMATIONAL
-
     name: CVE-2017-13694
      uri: https://security-tracker.debian.org/tracker/CVE-2017-13694
 severity: INFORMATIONAL
-
     name: CVE-2020-0423
      uri: https://security-tracker.debian.org/tracker/CVE-2020-0423
 severity: INFORMATIONAL
-
     name: CVE-2008-2544
      uri: https://security-tracker.debian.org/tracker/CVE-2008-2544
 severity: INFORMATIONAL
-
     name: CVE-2019-18808
      uri: https://security-tracker.debian.org/tracker/CVE-2019-18808
 severity: INFORMATIONAL
-
     name: CVE-2019-12381
      uri: https://security-tracker.debian.org/tracker/CVE-2019-12381
 severity: INFORMATIONAL
-
     name: CVE-2019-16230
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16230
 severity: INFORMATIONAL
-
     name: CVE-2015-2877
      uri: https://security-tracker.debian.org/tracker/CVE-2015-2877
 severity: INFORMATIONAL
-
     name: CVE-2019-16232
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16232
 severity: INFORMATIONAL
-
     name: CVE-2018-1121
      uri: https://security-tracker.debian.org/tracker/CVE-2018-1121
 severity: INFORMATIONAL
-
     name: CVE-2020-16120
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16120
 severity: INFORMATIONAL
-
     name: CVE-2010-4563
      uri: https://security-tracker.debian.org/tracker/CVE-2010-4563
 severity: INFORMATIONAL
-
     name: CVE-2008-1687
      uri: https://security-tracker.debian.org/tracker/CVE-2008-1687
 severity: INFORMATIONAL
-
     name: CVE-2008-1688
      uri: https://security-tracker.debian.org/tracker/CVE-2008-1688
 severity: INFORMATIONAL
-
     name: CVE-2020-16587
      uri: https://security-tracker.debian.org/tracker/CVE-2020-16587
 severity: INFORMATIONAL
-
     name: CVE-2018-18444
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18444
 severity: INFORMATIONAL
-
     name: CVE-2018-18443
      uri: https://security-tracker.debian.org/tracker/CVE-2018-18443
 severity: INFORMATIONAL
-
     name: CVE-2017-14988
      uri: https://security-tracker.debian.org/tracker/CVE-2017-14988
 severity: INFORMATIONAL
-
     name: CVE-2018-7648
      uri: https://security-tracker.debian.org/tracker/CVE-2018-7648
 severity: INFORMATIONAL
-
     name: CVE-2016-9113
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9113
 severity: INFORMATIONAL
-
     name: CVE-2016-10505
      uri: https://security-tracker.debian.org/tracker/CVE-2016-10505
 severity: INFORMATIONAL
-
     name: CVE-2016-9117
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9117
 severity: INFORMATIONAL
-
     name: CVE-2016-9114
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9114
 severity: INFORMATIONAL
-
     name: CVE-2016-9580
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9580
 severity: INFORMATIONAL
-
     name: CVE-2016-9581
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9581
 severity: INFORMATIONAL
-
     name: CVE-2018-16376
      uri: https://security-tracker.debian.org/tracker/CVE-2018-16376
 severity: INFORMATIONAL
-
     name: CVE-2018-20845
      uri: https://security-tracker.debian.org/tracker/CVE-2018-20845
 severity: INFORMATIONAL
-
     name: CVE-2016-9115
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9115
 severity: INFORMATIONAL
-
     name: CVE-2018-20846
      uri: https://security-tracker.debian.org/tracker/CVE-2018-20846
 severity: INFORMATIONAL
-
     name: CVE-2016-9116
      uri: https://security-tracker.debian.org/tracker/CVE-2016-9116
 severity: INFORMATIONAL
-
     name: CVE-2017-17479
      uri: https://security-tracker.debian.org/tracker/CVE-2017-17479
 severity: INFORMATIONAL
-
     name: CVE-2016-10506
      uri: https://security-tracker.debian.org/tracker/CVE-2016-10506
 severity: INFORMATIONAL
-
     name: CVE-2018-16375
      uri: https://security-tracker.debian.org/tracker/CVE-2018-16375
 severity: INFORMATIONAL
-
     name: CVE-2018-5727
      uri: https://security-tracker.debian.org/tracker/CVE-2018-5727
 severity: INFORMATIONAL
-
     name: CVE-2017-14159
      uri: https://security-tracker.debian.org/tracker/CVE-2017-14159
 severity: INFORMATIONAL
-
     name: CVE-2015-3276
      uri: https://security-tracker.debian.org/tracker/CVE-2015-3276
 severity: INFORMATIONAL
-
     name: CVE-2017-17740
      uri: https://security-tracker.debian.org/tracker/CVE-2017-17740
 severity: INFORMATIONAL
-
     name: CVE-2020-15719
      uri: https://security-tracker.debian.org/tracker/CVE-2020-15719
 severity: INFORMATIONAL
-
     name: CVE-2020-14145
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14145
 severity: INFORMATIONAL
-
     name: CVE-2008-3234
      uri: https://security-tracker.debian.org/tracker/CVE-2008-3234
 severity: INFORMATIONAL
-
     name: CVE-2007-2243
      uri: https://security-tracker.debian.org/tracker/CVE-2007-2243
 severity: INFORMATIONAL
-
     name: CVE-2020-15778
      uri: https://security-tracker.debian.org/tracker/CVE-2020-15778
 severity: INFORMATIONAL
-
     name: CVE-2007-2768
      uri: https://security-tracker.debian.org/tracker/CVE-2007-2768
 severity: INFORMATIONAL
-
     name: CVE-2020-12062
      uri: https://security-tracker.debian.org/tracker/CVE-2020-12062
 severity: INFORMATIONAL
-
     name: CVE-2019-16905
      uri: https://security-tracker.debian.org/tracker/CVE-2019-16905
 severity: INFORMATIONAL
-
     name: CVE-2019-6110
      uri: https://security-tracker.debian.org/tracker/CVE-2019-6110
 severity: INFORMATIONAL
-
     name: CVE-2007-6755
      uri: https://security-tracker.debian.org/tracker/CVE-2007-6755
 severity: INFORMATIONAL
-
     name: CVE-2010-0928
      uri: https://security-tracker.debian.org/tracker/CVE-2010-0928
 severity: INFORMATIONAL
-
     name: CVE-2020-29363
      uri: https://security-tracker.debian.org/tracker/CVE-2020-29363
 severity: INFORMATIONAL
-
     name: CVE-2018-6952
      uri: https://security-tracker.debian.org/tracker/CVE-2018-6952
 severity: INFORMATIONAL
-
     name: CVE-2018-6951
      uri: https://security-tracker.debian.org/tracker/CVE-2018-6951
 severity: INFORMATIONAL
-
     name: CVE-2010-4651
      uri: https://security-tracker.debian.org/tracker/CVE-2010-4651
 severity: INFORMATIONAL
-
     name: CVE-2017-16231
      uri: https://security-tracker.debian.org/tracker/CVE-2017-16231
 severity: INFORMATIONAL
-
     name: CVE-2017-11164
      uri: https://security-tracker.debian.org/tracker/CVE-2017-11164
 severity: INFORMATIONAL
-
     name: CVE-2019-20838
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20838
 severity: INFORMATIONAL
-
     name: CVE-2017-7245
      uri: https://security-tracker.debian.org/tracker/CVE-2017-7245
 severity: INFORMATIONAL
-
     name: CVE-2017-7246
      uri: https://security-tracker.debian.org/tracker/CVE-2017-7246
 severity: INFORMATIONAL
-
     name: CVE-2011-4116
      uri: https://security-tracker.debian.org/tracker/CVE-2011-4116
 severity: INFORMATIONAL
-
     name: CVE-2020-14349
      uri: https://security-tracker.debian.org/tracker/CVE-2020-14349
 severity: INFORMATIONAL
-
     name: CVE-2019-9193
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9193
 severity: INFORMATIONAL
-
     name: CVE-2008-4108
      uri: https://security-tracker.debian.org/tracker/CVE-2008-4108
 severity: INFORMATIONAL
-
     name: CVE-2017-17522
      uri: https://security-tracker.debian.org/tracker/CVE-2017-17522
 severity: INFORMATIONAL
-
     name: CVE-2019-18348
      uri: https://security-tracker.debian.org/tracker/CVE-2019-18348
 severity: INFORMATIONAL
-
     name: CVE-2013-7040
      uri: https://security-tracker.debian.org/tracker/CVE-2013-7040
 severity: INFORMATIONAL
-
     name: CVE-2019-9674
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9674
 severity: INFORMATIONAL
-
     name: CVE-2019-18348
      uri: https://security-tracker.debian.org/tracker/CVE-2019-18348
 severity: INFORMATIONAL
-
     name: CVE-2020-27619
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27619
 severity: INFORMATIONAL
-
     name: CVE-2019-9674
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9674
 severity: INFORMATIONAL
-
     name: CVE-2017-17522
      uri: https://security-tracker.debian.org/tracker/CVE-2017-17522
 severity: INFORMATIONAL
-
     name: CVE-2019-19882
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19882
 severity: INFORMATIONAL
-
     name: CVE-2013-4235
      uri: https://security-tracker.debian.org/tracker/CVE-2013-4235
 severity: INFORMATIONAL
-
     name: CVE-2007-5686
      uri: https://security-tracker.debian.org/tracker/CVE-2007-5686
 severity: INFORMATIONAL
-
     name: CVE-2019-19925
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19925
 severity: INFORMATIONAL
-
     name: CVE-2019-19924
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19924
 severity: INFORMATIONAL
-
     name: CVE-2019-19923
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19923
 severity: INFORMATIONAL
-
     name: CVE-2019-19244
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19244
 severity: INFORMATIONAL
-
     name: CVE-2020-13435
      uri: https://security-tracker.debian.org/tracker/CVE-2020-13435
 severity: INFORMATIONAL
-
     name: CVE-2019-19603
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19603
 severity: INFORMATIONAL
-
     name: CVE-2020-11656
      uri: https://security-tracker.debian.org/tracker/CVE-2020-11656
 severity: INFORMATIONAL
-
     name: CVE-2019-19645
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19645
 severity: INFORMATIONAL
-
     name: CVE-2020-13631
      uri: https://security-tracker.debian.org/tracker/CVE-2020-13631
 severity: INFORMATIONAL
-
     name: CVE-2020-15358
      uri: https://security-tracker.debian.org/tracker/CVE-2020-15358
 severity: INFORMATIONAL
-
     name: CVE-2019-19959
      uri: https://security-tracker.debian.org/tracker/CVE-2019-19959
 severity: INFORMATIONAL
-
     name: CVE-2013-4392
      uri: https://security-tracker.debian.org/tracker/CVE-2013-4392
 severity: INFORMATIONAL
-
     name: CVE-2020-13776
      uri: https://security-tracker.debian.org/tracker/CVE-2020-13776
 severity: INFORMATIONAL
-
     name: CVE-2019-20386
      uri: https://security-tracker.debian.org/tracker/CVE-2019-20386
 severity: INFORMATIONAL
-
     name: CVE-2021-20193
      uri: https://security-tracker.debian.org/tracker/CVE-2021-20193
 severity: INFORMATIONAL
-
     name: CVE-2019-9923
      uri: https://security-tracker.debian.org/tracker/CVE-2019-9923
 severity: INFORMATIONAL
-
     name: CVE-2005-2541
      uri: https://security-tracker.debian.org/tracker/CVE-2005-2541
 severity: INFORMATIONAL
-
     name: CVE-2018-10126
      uri: https://security-tracker.debian.org/tracker/CVE-2018-10126
 severity: INFORMATIONAL
-
     name: CVE-2014-8130
      uri: https://security-tracker.debian.org/tracker/CVE-2014-8130
 severity: INFORMATIONAL
-
     name: CVE-2017-16232
      uri: https://security-tracker.debian.org/tracker/CVE-2017-16232
 severity: INFORMATIONAL
-
     name: CVE-2017-5563
      uri: https://security-tracker.debian.org/tracker/CVE-2017-5563
 severity: INFORMATIONAL
-
     name: CVE-2017-17973
      uri: https://security-tracker.debian.org/tracker/CVE-2017-17973
 severity: INFORMATIONAL
-
     name: CVE-2017-9117
      uri: https://security-tracker.debian.org/tracker/CVE-2017-9117
 severity: INFORMATIONAL
-
     name: CVE-2019-18934
      uri: https://security-tracker.debian.org/tracker/CVE-2019-18934
 severity: INFORMATIONAL
-
     name: CVE-2020-28935
      uri: https://security-tracker.debian.org/tracker/CVE-2020-28935
 severity: INFORMATIONAL
-
     name: CVE-2020-35492
      uri: https://security-tracker.debian.org/tracker/CVE-2020-35492
 severity: UNDEFINED
-
     name: CVE-2020-27618
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27618
 severity: UNDEFINED
-
     name: CVE-2020-27768
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27768
 severity: UNDEFINED
-
     name: CVE-2020-27769
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27769
 severity: UNDEFINED
-
     name: CVE-2020-27820
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27820
 severity: UNDEFINED
-
     name: CVE-2020-27815
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27815
 severity: UNDEFINED
-
     name: CVE-2020-25672
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25672
 severity: UNDEFINED
-
     name: CVE-2020-25669
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25669
 severity: UNDEFINED
-
     name: CVE-2020-25673
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25673
 severity: UNDEFINED
-
     name: CVE-2020-25668
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25668
 severity: UNDEFINED
-
     name: CVE-2020-25671
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25671
 severity: UNDEFINED
-
     name: CVE-2020-24490
      uri: https://security-tracker.debian.org/tracker/CVE-2020-24490
 severity: UNDEFINED
-
     name: CVE-2020-25670
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25670
 severity: UNDEFINED
-
     name: CVE-2020-15180
      uri: https://security-tracker.debian.org/tracker/CVE-2020-15180
 severity: UNDEFINED
-
     name: CVE-2020-27823
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27823
 severity: UNDEFINED
-
     name: CVE-2020-27814
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27814
 severity: UNDEFINED
-
     name: CVE-2020-27824
      uri: https://security-tracker.debian.org/tracker/CVE-2020-27824
 severity: UNDEFINED
-
     name: CVE-2020-25709
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25709
 severity: UNDEFINED
-
     name: CVE-2020-25710
      uri: https://security-tracker.debian.org/tracker/CVE-2020-25710
 severity: UNDEFINED
-
     name: CVE-2021-3177
      uri: https://security-tracker.debian.org/tracker/CVE-2021-3177
 severity: UNDEFINED
-
     name: CVE-2021-3177
      uri: https://security-tracker.debian.org/tracker/CVE-2021-3177
 severity: UNDEFINED

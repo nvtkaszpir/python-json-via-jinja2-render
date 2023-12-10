@@ -20,7 +20,7 @@ def render(data, template):
     """
     with open(template, 'r'):
         templateLoader = jinja2.FileSystemLoader(searchpath="./")
-        templateEnv = jinja2.Environment(loader=templateLoader)
+        templateEnv = jinja2.Environment(loader=templateLoader, keep_trailing_newline=True)
         template = templateEnv.get_template(template)
         outputText = template.render(data=data)
         return outputText

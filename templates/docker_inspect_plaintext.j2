@@ -13,12 +13,14 @@ digests:
 workdir: {{ img.Config.WorkingDir }}
 entrypoint: {{ img.Config.Entrypoint }}
 cmd: {{ img.Config.Cmd }}
-volumes: {{ img.Config.Volumes if img.Config.Volumes is not none }}
+{% if img.Config.Volumes is not none -%}
+volumes: {{ img.Config.Volumes }}
+{%- endif %}
 arch: {{ img.Architecture }}
 os: {{ img.Os }}
 labels:
 {%- for k,v in img.Config.Labels.items() %}
 - {{ k }} = {{ v }}
 {%- endfor %}
-{% endfor %}
 ...
+{% endfor %}

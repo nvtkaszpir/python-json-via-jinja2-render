@@ -6,14 +6,11 @@ Digest: `sha256:845802626dc44a4521bb57453f53bd4ca2ea94928c8c7880bfc94546079dd40f
 
 Created: 2021-02-05T22:48:19.791587119Z
 
-
 # Tags
 
 * main
 * latest
-
-
-Docker pull: 
+Docker pull:
 
 ```shell
 docker pull quay.io/kaszpir/python-json-via-jinja2-render:main
